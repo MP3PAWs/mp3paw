@@ -1,21 +1,26 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "mp3paw",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "mp3paw",
   "dependencies": {
+    "autoprefixer": "^10.4.14",
     "gatsby": "^5.9.0",
+    "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-image": "^3.9.0",
     "gatsby-plugin-manifest": "^5.9.0",
+    "gatsby-plugin-robots-txt": "^1.8.0",
     "gatsby-plugin-sharp": "^5.9.0",
+    "gatsby-plugin-sitemap": "^6.9.0",
     "gatsby-source-filesystem": "^5.9.0",
     "gatsby-transformer-sharp": "^5.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "prettier": "^2.8.7"
+    "prettier": "^2.8.7",
+    "tailwindcss": "^3.3.1"
   },
   "keywords": [
     "gatsby"

@@ -539,23 +539,23 @@ const Index = () => {
             </div>
             <ul className="mt-2.5 mb-1">
               <li className="inline-block mr-3">
-                <Link className="text-xs text-[#ffffff99]" to="/" title="MP3 PAW - Download MP3 Music Free">MP3
+                <Link className="text-xs text-[#FFF]" to="/" title="MP3 PAW - Download MP3 Music Free">MP3
                   PAW</Link>
               </li>
               <li className="inline-block mr-3">
-                <Link className="text-xs text-[#ffffff99]" to="/terms-of-service/"
+                <Link className="text-xs text-[#FFF]" to="/terms-of-service/"
                       title="MP3 PAW - Download MP3 Music Free">TERMS</Link>
               </li>
               <li className="inline-block mr-3">
-                <Link className="text-xs text-[#ffffff99]" to="/copyright/"
+                <Link className="text-xs text-[#FFF]" to="/copyright/"
                       title="MP3 PAW - Download MP3 Music Free">COPYRIGHT</Link>
               </li>
               <li className="inline-block mr-3">
-                <Link className="text-xs text-[#ffffff99]" to="/contact/"
+                <Link className="text-xs text-[#FFF]" to="/contact/"
                       title="MP3 PAW - Download MP3 Music Free">CONTACT</Link>
               </li>
             </ul>
-            <div className="text-xs text-[#ffffff4d] font-regular">© 2023 MP3 PAW. All Rights Reserved</div>
+            <div className="text-xs text-[#FFF] font-regular">© 2023 MP3 PAW. All Rights Reserved</div>
           </div>
         </div>
       </footer>
@@ -585,5 +585,6 @@ export const Head = () => (
     <meta property="og:description"
           content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download."/>
     <link rel="canonical" href="https://mp3paw.mobi/"/>
+    <meta name="google-site-verification" content="n9tcBQAttrl7f1rSG7BsTADmvk8IWaOaGe5eJjTlA9M" />
   </>
 )

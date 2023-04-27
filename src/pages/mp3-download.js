@@ -50,6 +50,20 @@ const Download = (props) => {
     }
   }
 
+  const handleDownloadMP3 = async (id) => {
+    try {
+      const response = await fetch(`https://mp3converter.fr/wp-content/plugins/youtube-mp3-by-leo/backend.php?id=${id}`);
+      const json = await response.json();
+      if(json.link){
+        window.open(json.link,'_blank');
+      }else {
+        alert("This song not downloadable. Please try another")
+      }
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  }
+
   return (
     <>
       <header className="p-5 bg-primary border border-[#5d2e0d]">
@@ -135,15 +149,13 @@ const Download = (props) => {
                           </button>
                         </li>
                         <li className="w-[31%] cursor-pointer font-regular">
-                          <div
-                            className="truncate py-1.5 px-2.5 rounded text-primary border border-primary border-b-[3px] hover:bg-[#fef8f5]">
+                          <button onClick={() => handleDownloadMP3(item?.videoId)}
+                            className="truncate py-1.5 px-2.5 rounded w-full text-primary border border-primary border-b-[3px] hover:bg-[#fef8f5]">
                             <strong className="font-semibold flex items-center">
                               <i className="fa fa-download mr-1.5"></i>
-                              <Link to={`https://youtubdle.com/watch?v=${item?.videoId}&format=.mp3`}>
                                 <span className="text-[13px]">Download MP3</span>
-                              </Link>
                             </strong>
-                          </div>
+                          </button>
                         </li>
                         <li className="w-[31%] cursor-pointer font-regular">
                           <div

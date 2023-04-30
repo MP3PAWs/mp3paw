@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {Link, navigate} from "gatsby";
+import React, { useState } from "react";
+import { Link, navigate } from "gatsby";
 import SearchIcon from "../images/search-icon.svg"
 import Logo from "../images/logo.svg"
 import '../styles/global.css';
@@ -12,12 +12,12 @@ const Index = () => {
   };
 
   const handleClickSearch = () => {
-    navigate("/mp3-download", {state: {search: inputValue}})
+    navigate("/mp3-download", { state: { search: inputValue } })
   };
 
   const handleSearchKeyDown = (e) => {
     if (e.keyCode === 13) {
-      navigate("/mp3-download", {state: {search: inputValue}})
+      navigate("/mp3-download", { state: { search: inputValue } })
     }
   };
 
@@ -27,8 +27,8 @@ const Index = () => {
         <div className="mx-auto max-w-[550px]">
           <div className="mb-2.5 text-center">
             <Link to="/" className="text-white text-[32px] inline-flex items-center"
-                  title="MP3 PAW - Download MP3 Music Free">
-              <img className="mr-1 mb-0" src={Logo} alt="logo"/>
+              title="MP3 PAW - Download MP3 Music Free">
+              <img className="mr-1 mb-0" src={Logo} alt="logo" />
               <span className="font-sans mr-1">MP3 PAW</span>
             </Link>
           </div>
@@ -42,7 +42,7 @@ const Index = () => {
               className="hover:bg-[#6E360F] capitalize font-regular font-medium !outline-none w-full rounded-md h-[30px] pl-5 text-sm bg-transparent"
             />
             <button onClick={handleClickSearch}>
-              <img className="mb-0 cursor-pointer mr-2" src={SearchIcon} alt="SearchIcon"/>
+              <img className="mb-0 cursor-pointer mr-2" src={SearchIcon} alt="SearchIcon" />
             </button>
           </div>
         </div>
@@ -55,7 +55,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future Wait For U"}}
+                state={{ search: "Future Wait For U" }}
                 title="Future Wait For U MP3 Download">
                 Future Wait For U
               </Link>
@@ -64,7 +64,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future PUFFIN ON ZOOTIEZ"}}
+                state={{ search: "Future PUFFIN ON ZOOTIEZ" }}
                 title="Future PUFFIN ON ZOOTIEZ MP3 Download">
                 Future PUFFIN ON ZOOTIEZ
               </Link>
@@ -73,7 +73,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future 712PM"}}
+                state={{ search: "Future 712PM" }}
                 title="Future 712PM MP3 Download">
                 Future 712PM
               </Link>
@@ -82,7 +82,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future I'M DAT N***A"}}
+                state={{ search: "Future I'M DAT N***A" }}
                 title="Future I'M DAT N***A MP3 Download">
                 Future I'M DAT N***A
               </Link>
@@ -91,7 +91,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future LOVE YOU BETTER"}}
+                state={{ search: "Future LOVE YOU BETTER" }}
                 title="Future LOVE YOU BETTER MP3 Download">
                 Future LOVE YOU BETTER
               </Link>
@@ -100,7 +100,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future I'M ON ONE"}}
+                state={{ search: "Future I'M ON ONE" }}
                 title="Future I'M ON ONE MP3 Download">
                 Future I'M ON ONE
               </Link>
@@ -109,7 +109,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future KEEP IT BURNIN"}}
+                state={{ search: "Future KEEP IT BURNIN" }}
                 title="Future KEEP IT BURNIN MP3 Download">
                 Future KEEP IT BURNIN
               </Link>
@@ -118,7 +118,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future MASSAGING ME"}}
+                state={{ search: "Future MASSAGING ME" }}
                 title="Future MASSAGING ME MP3 Download">
                 Future MASSAGING ME
               </Link>
@@ -127,7 +127,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future CHICKENS"}}
+                state={{ search: "Future CHICKENS" }}
                 title="Future CHICKENS MP3 Download">
                 Future CHICKENS
               </Link>
@@ -136,7 +136,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future FOR A NUT"}}
+                state={{ search: "Future FOR A NUT" }}
                 title="Future FOR A NUT MP3 Download">
                 Future FOR A NUT
               </Link>
@@ -145,7 +145,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future GOLD STACKS"}}
+                state={{ search: "Future GOLD STACKS" }}
                 title="Future GOLD STACKS MP3 Download">
                 Future GOLD STACKS
               </Link>
@@ -154,7 +154,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Jack Harlow First Class"}}
+                state={{ search: "Jack Harlow First Class" }}
                 title="Jack Harlow First Class MP3 Download">
                 Jack Harlow First Class
               </Link>
@@ -163,7 +163,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future VOODOO"}}
+                state={{ search: "Future VOODOO" }}
                 title="Future VOODOO MP3 Download">
                 Future VOODOO
               </Link>
@@ -172,7 +172,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future WE JUS WANNA GET HIGH"}}
+                state={{ search: "Future WE JUS WANNA GET HIGH" }}
                 title="Future WE JUS WANNA GET HIGH MP3 Download">
                 Future WE JUS WANNA GET HIGH
               </Link>
@@ -181,7 +181,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future HOLY GHOST"}}
+                state={{ search: "Future HOLY GHOST" }}
                 title="Future HOLY GHOST MP3 Download">
                 Future HOLY GHOST
               </Link>
@@ -190,7 +190,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future THE WAY THINGS GOING"}}
+                state={{ search: "Future THE WAY THINGS GOING" }}
                 title="Future THE WAY THINGS GOING MP3 Download">
                 Future THE WAY THINGS GOING
               </Link>
@@ -199,7 +199,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Future BACK TO THE BASICS"}}
+                state={{ search: "Future BACK TO THE BASICS" }}
                 title="Future BACK TO THE BASICS MP3 Download">
                 Future BACK TO THE BASICS
               </Link>
@@ -208,7 +208,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Harry Styles As It Was"}}
+                state={{ search: "Harry Styles As It Was" }}
                 title="Harry Styles As It Was MP3 Download">
                 Harry Styles As It Was
               </Link>
@@ -217,7 +217,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Lil Baby In A Minute"}}
+                state={{ search: "Lil Baby In A Minute" }}
                 title="Lil Baby In A Minute MP3 Download">
                 Lil Baby In A Minute
               </Link>
@@ -226,7 +226,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Lil Baby Frozen"}}
+                state={{ search: "Lil Baby Frozen" }}
                 title="Lil Baby Frozen MP3 Download">
                 Lil Baby Frozen
               </Link>
@@ -235,7 +235,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Lil Durk What Happened To Virgil"}}
+                state={{ search: "Lil Durk What Happened To Virgil" }}
                 title="Lil Durk What Happened To Virgil MP3 Download">
                 Lil Durk What Happened To Virgil
               </Link>
@@ -244,7 +244,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Lil Baby Right On"}}
+                state={{ search: "Lil Baby Right On" }}
                 title="Lil Baby Right On MP3 Download">
                 Lil Baby Right On
               </Link>
@@ -253,7 +253,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Kodak Black Super Gremlin"}}
+                state={{ search: "Kodak Black Super Gremlin" }}
                 title="Kodak Black Super Gremlin MP3 Download">
                 Kodak Black Super Gremlin
               </Link>
@@ -262,7 +262,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "KAROL G PROVENZA"}}
+                state={{ search: "KAROL G PROVENZA" }}
                 title="KAROL G PROVENZA MP3 Download">
                 KAROL G PROVENZA
               </Link>
@@ -271,7 +271,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "NoCap Vaccine"}}
+                state={{ search: "NoCap Vaccine" }}
                 title="NoCap Vaccine MP3 Download">
                 NoCap Vaccine
               </Link>
@@ -280,7 +280,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Morgan Wallen Don't Think Jesus"}}
+                state={{ search: "Morgan Wallen Don't Think Jesus" }}
                 title="Morgan Wallen Don't Think Jesus MP3 Download">
                 Morgan Wallen Don't Think Jesus
               </Link>
@@ -289,7 +289,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Megan Thee Stallion Plan B"}}
+                state={{ search: "Megan Thee Stallion Plan B" }}
                 title="Megan Thee Stallion Plan B MP3 Download">
                 Megan Thee Stallion Plan B
               </Link>
@@ -298,7 +298,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Drake Wants and Needs"}}
+                state={{ search: "Drake Wants and Needs" }}
                 title="Drake Wants and Needs MP3 Download">
                 Drake Wants and Needs
               </Link>
@@ -307,7 +307,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "The Kid LAROI Thousand Miles"}}
+                state={{ search: "The Kid LAROI Thousand Miles" }}
                 title="The Kid LAROI Thousand Miles MP3 Download">
                 The Kid LAROI Thousand Miles
               </Link>
@@ -316,7 +316,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Gunna pushin P"}}
+                state={{ search: "Gunna pushin P" }}
                 title="Gunna pushin P MP3 Download">
                 Gunna pushin P
               </Link>
@@ -325,7 +325,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Lil Durk AHHH HA"}}
+                state={{ search: "Lil Durk AHHH HA" }}
                 title="Lil Durk AHHH HA MP3 Download">
                 Lil Durk AHHH HA
               </Link>
@@ -334,7 +334,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Becky G. MAMIII"}}
+                state={{ search: "Becky G. MAMIII" }}
                 title="Becky G. MAMIII MP3 Download">
                 Becky G. MAMIII
               </Link>
@@ -343,7 +343,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Glass Animals Heat Waves"}}
+                state={{ search: "Glass Animals Heat Waves" }}
                 title="Glass Animals Heat Waves MP3 Download">
                 Glass Animals Heat Waves
               </Link>
@@ -352,7 +352,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Lucky Daye Over"}}
+                state={{ search: "Lucky Daye Over" }}
                 title="Lucky Daye Over MP3 Download">
                 Lucky Daye Over
               </Link>
@@ -361,7 +361,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Lauren Spencer-Smith Flowers"}}
+                state={{ search: "Lauren Spencer-Smith Flowers" }}
                 title="Lauren Spencer-Smith Flowers MP3 Download">
                 Lauren Spencer-Smith Flowers
               </Link>
@@ -370,7 +370,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "SleazyWorld Go Sleazy Flow"}}
+                state={{ search: "SleazyWorld Go Sleazy Flow" }}
                 title="SleazyWorld Go Sleazy Flow MP3 Download">
                 SleazyWorld Go Sleazy Flow
               </Link>
@@ -379,7 +379,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "NoCap Very Special"}}
+                state={{ search: "NoCap Very Special" }}
                 title="NoCap Very Special MP3 Download">
                 NoCap Very Special
               </Link>
@@ -388,7 +388,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Drake Knife Talk"}}
+                state={{ search: "Drake Knife Talk" }}
                 title="Drake Knife Talk MP3 Download">
                 Drake Knife Talk
               </Link>
@@ -397,7 +397,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Benson Boone In The Stars"}}
+                state={{ search: "Benson Boone In The Stars" }}
                 title="Benson Boone In The Stars MP3 Download">
                 Benson Boone In The Stars
               </Link>
@@ -406,7 +406,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "GIVĒON Lie Again"}}
+                state={{ search: "GIVĒON Lie Again" }}
                 title="GIVĒON Lie Again MP3 Download">
                 GIVĒON Lie Again
               </Link>
@@ -415,7 +415,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Justin Bieber Honest"}}
+                state={{ search: "Justin Bieber Honest" }}
                 title="Justin Bieber Honest MP3 Download">
                 Justin Bieber Honest
               </Link>
@@ -424,7 +424,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Gunna Banking On Me"}}
+                state={{ search: "Gunna Banking On Me" }}
                 title="Gunna Banking On Me MP3 Download">
                 Gunna Banking On Me
               </Link>
@@ -433,7 +433,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Nardo Wick Me or Sum"}}
+                state={{ search: "Nardo Wick Me or Sum" }}
                 title="Nardo Wick Me or Sum MP3 Download">
                 Nardo Wick Me or Sum
               </Link>
@@ -442,7 +442,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Lil Durk Broadway Girls"}}
+                state={{ search: "Lil Durk Broadway Girls" }}
                 title="Lil Durk Broadway Girls MP3 Download">
                 Lil Durk Broadway Girls
               </Link>
@@ -451,7 +451,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Muni Long Hrs & Hrs"}}
+                state={{ search: "Muni Long Hrs & Hrs" }}
                 title="Muni Long Hrs & Hrs MP3 Download">
                 Muni Long Hrs & Hrs
               </Link>
@@ -460,7 +460,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Lil Durk Petty Too"}}
+                state={{ search: "Lil Durk Petty Too" }}
                 title="Lil Durk Petty Too MP3 Download">
                 Lil Durk Petty Too
               </Link>
@@ -469,7 +469,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "NoCap I'll Be Here"}}
+                state={{ search: "NoCap I'll Be Here" }}
                 title="NoCap I'll Be Here MP3 Download">
                 NoCap I'll Be Here
               </Link>
@@ -478,7 +478,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "The Kid LAROI STAY"}}
+                state={{ search: "The Kid LAROI STAY" }}
                 title="The Kid LAROI STAY MP3 Download">
                 The Kid LAROI STAY
               </Link>
@@ -487,7 +487,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "Zach Bryan Something in the Orange"}}
+                state={{ search: "Zach Bryan Something in the Orange" }}
                 title="Zach Bryan Something in the Orange MP3 Download">
                 Zach Bryan Something in the Orange
               </Link>
@@ -496,7 +496,7 @@ const Index = () => {
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
                 to="/mp3-download/"
-                state={{search: "SZA I Hate U"}}
+                state={{ search: "SZA I Hate U" }}
                 title="SZA I Hate U MP3 Download">
                 SZA I Hate U
               </Link>
@@ -504,7 +504,7 @@ const Index = () => {
           </div>
           <h1 className="mt-6" title="MP3 PAW - Download Free MP3 Music">MP3 PAW - Download Free MP3 Music</h1>
           <p>
-            MP3 Paw is an MP3 search engine tool that allows you to search and download free MP3 music in high quality.
+            <Link className="contents text-[#551A8B]" to="https://mp3paw.mobi/">MP3 Paw</Link>&nbsp;is an MP3 search engine tool that allows you to search and download free MP3 music in high quality.
             This website is compatible with all types of devices, such as computers, tablets, and smartphones. Simple
             and user-friendly interference makes Mp3paw a popular MP3 downloader.
           </p>
@@ -533,7 +533,7 @@ const Index = () => {
           <div>
             <div className="mb-2.5 flex justify-center">
               <Link to="/" className="text-white text-2xl flex" title="MP3 PAW - Download MP3 Music Free">
-                <img className="mr-1 mb-0" src={Logo} alt="logo"/>
+                <img className="mr-1 mb-0" src={Logo} alt="logo" />
                 <span className="font-sans mr-1">MP3 PAW</span>
               </Link>
             </div>
@@ -544,15 +544,15 @@ const Index = () => {
               </li>
               <li className="inline-block mr-3">
                 <Link className="text-xs text-[#FFF]" to="/terms-of-service/"
-                      title="MP3 PAW - Download MP3 Music Free">TERMS</Link>
+                  title="MP3 PAW - Download MP3 Music Free">TERMS</Link>
               </li>
               <li className="inline-block mr-3">
                 <Link className="text-xs text-[#FFF]" to="/copyright/"
-                      title="MP3 PAW - Download MP3 Music Free">COPYRIGHT</Link>
+                  title="MP3 PAW - Download MP3 Music Free">COPYRIGHT</Link>
               </li>
               <li className="inline-block mr-3">
                 <Link className="text-xs text-[#FFF]" to="/contact/"
-                      title="MP3 PAW - Download MP3 Music Free">CONTACT</Link>
+                  title="MP3 PAW - Download MP3 Music Free">CONTACT</Link>
               </li>
             </ul>
             <div className="text-xs text-[#FFF] font-regular">© 2023 MP3 PAW. All Rights Reserved</div>
@@ -567,24 +567,24 @@ export default Index
 
 export const Head = () => (
   <>
-    <html lang="en"/>
+    <html lang="en" />
     <title>MP3 PAW - Download MP3 Music Free in High Quality</title>
-    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta httpEquiv="content-language" content="en-us"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="robots" content="index,follow"/>
+    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta httpEquiv="content-language" content="en-us" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
     <meta name="description"
-          content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download."/>
+      content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
     <meta name="keywords"
-          content="MP3 PAW, download mp3, download music, 320kbps mp3, mp3 music, free mp3, free music"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:site_name" content="MP3 PAW - Free MP3 Downloads"/>
-    <meta property="og:url" content="https://mp3paw.mobi/"/>
-    <meta property="og:title" content="MP3 PAW - Download MP3 Music Free in High Quality"/>
-    <meta property="og:image" content="https://www.mp3juices.blog/free9/images/mp3juices.png"/>
+      content="MP3 PAW, download mp3, download music, 320kbps mp3, mp3 music, free mp3, free music" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="MP3 PAW - Free MP3 Downloads" />
+    <meta property="og:url" content="https://mp3paw.mobi/" />
+    <meta property="og:title" content="MP3 PAW - Download MP3 Music Free in High Quality" />
+    <meta property="og:image" content="https://www.mp3juices.blog/free9/images/mp3juices.png" />
     <meta property="og:description"
-          content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download."/>
-    <link rel="canonical" href="https://mp3paw.mobi/"/>
+      content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
+    <link rel="canonical" href="https://mp3paw.mobi/" />
     <meta name="google-site-verification" content="n9tcBQAttrl7f1rSG7BsTADmvk8IWaOaGe5eJjTlA9M" />
   </>
 )

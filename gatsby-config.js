@@ -28,16 +28,16 @@ module.exports = {
         icon: `src/images/favcon.svg`,
       },
     },
-    {
-      resolve: 'gatsby-plugin-sitemap',
-      options: {
-        output: '/',
-        excludes: [
-          `/404`,
-          `/mp3-download`,
-        ],
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-sitemap',
+    //   options: {
+    //     output: '/',
+    //     excludes: [
+    //       `/404`,
+    //       `/mp3-download`,
+    //     ],
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

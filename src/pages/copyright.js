@@ -1,23 +1,23 @@
-import React, {useState} from "react";
-import {Link, navigate} from "gatsby";
-import SearchIcon from "../images/search-icon.svg"
-import Logo from "../images/logo.svg"
-import '../styles/global.css';
+import React, { useState } from "react";
+import { Link, navigate } from "gatsby";
+import SearchIcon from "../images/search-icon.svg";
+import Logo from "../images/logo.svg";
+import "../styles/global.css";
 
 const Copyright = () => {
   const [inputValue, setInputValue] = useState("test");
 
   const handleInputChange = (e) => {
-    setInputValue(e.target.value)
+    setInputValue(e.target.value);
   };
 
   const handleClickSearch = () => {
-    navigate("/mp3-download", {state: {search: inputValue}})
+    navigate("/mp3-download", { state: { search: inputValue } });
   };
 
   const handleSearchKeyDown = (e) => {
     if (e.keyCode === 13) {
-      navigate("/mp3-download", {state: {search: inputValue}})
+      navigate("/mp3-download", { state: { search: inputValue } });
     }
   };
 
@@ -28,7 +28,7 @@ const Copyright = () => {
           <div className="mb-2.5 text-center">
             <Link to="/" className="text-white text-[32px] inline-flex items-center"
                   title="MP3 PAW - Download MP3 Music Free">
-              <img className="mr-1 mb-0" src={Logo} alt="logo"/>
+              <img className="mr-1 mb-0" src={Logo} alt="logo" />
               <span className="font-sans mr-1">MP3 PAW</span>
             </Link>
           </div>
@@ -42,7 +42,7 @@ const Copyright = () => {
               className="hover:bg-[#6E360F] capitalize font-regular font-medium !outline-none w-full rounded-md h-[30px] pl-5 text-sm bg-transparent"
             />
             <button onClick={handleClickSearch}>
-              <img className="mb-0 cursor-pointer mr-2" src={SearchIcon} alt="SearchIcon"/>
+              <img className="mb-0 cursor-pointer mr-2" src={SearchIcon} alt="SearchIcon" />
             </button>
           </div>
         </div>
@@ -54,7 +54,7 @@ const Copyright = () => {
             copyrighted or illegal content on <b>MP3
               PAW</b> The Music Search information we host does not have files that can be copyrighted. We are in
             correspondence with the <a href="https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act"
-                                       title="Digital Millennium Copyright Act" rel="nofollow" > Digital
+                                       title="Digital Millennium Copyright Act" rel="nofollow"> Digital
               Millennium Copyright Act </a> ("DMCA") and general international copyright laws.</p><p>However, we still
             can remove urls, search results, or play options from our site if the copyright owner would like us to do
             so.</p><p>You need to follow the following procedure if you want to remove your work:</p><h3>Takedown
@@ -102,7 +102,7 @@ const Copyright = () => {
           <div>
             <div className="mb-2.5 flex justify-center">
               <Link to="/" className="text-white text-2xl flex" title="MP3 PAW - Download MP3 Music Free">
-                <img className="mr-1 mb-0" src={Logo} alt="logo"/>
+                <img className="mr-1 mb-0" src={Logo} alt="logo" />
                 <span className="font-sans mr-1">MP3 PAW</span>
               </Link>
             </div>
@@ -129,20 +129,20 @@ const Copyright = () => {
         </div>
       </footer>
     </>
-  )
-}
+  );
+};
 
-export default Copyright
+export default Copyright;
 
 export const Head = () => (
   <>
-    <html lang="en"/>
+    <html lang="en" />
     <title>MP3 PAW - Copyright Claims</title>
-    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta httpEquiv="content-language" content="en-us"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="robots" content="index,follow"/>
-    <meta name="description" content="Here you will find our copyright claims."/>
-    <link rel="canonical" href="https://mp3paw.mobi/copyright/"/>
+    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta httpEquiv="content-language" content="en-us" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="Here you will find our copyright claims." />
+    <link rel="canonical" href="https://mp3paw.mobi/copyright/" />
   </>
-)
+);

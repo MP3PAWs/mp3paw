@@ -1,68 +1,68 @@
-import React, {useEffect, useState} from "react";
-import {Link, navigate} from "gatsby";
-import SearchIcon from "../images/search-icon.svg"
-import Logo from "../images/logo.svg"
-import Loader from "../images/favcon.svg"
-import '../styles/global.css';
+import React, { useEffect, useState } from "react";
+import { Link, navigate } from "gatsby";
+import SearchIcon from "../images/search-icon.svg";
+import Logo from "../images/logo.svg";
+import Loader from "../images/favcon.svg";
+import "../styles/global.css";
 
 const Download = (props) => {
-  const searchValue = props?.location?.state?.search
+  const searchValue = props?.location?.state?.search;
   const [inputValue, setInputValue] = useState(searchValue || "test");
   const [currentSongIndex, setCurrentSongIndex] = useState(null);
-  const [searchList, setSearchList] = useState()
-  const [audioPlay, setAudioPlay] = useState()
-  const [loading, setLoading] = useState(false)
+  const [searchList, setSearchList] = useState();
+  const [audioPlay, setAudioPlay] = useState();
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const fetchPromise = fetch(`https://me0xn4hy3i.execute-api.us-east-1.amazonaws.com/staging/api/resolve/resolveYoutubeSearch?search=${searchValue}`);
     fetchPromise.then(response => {
       return response.json();
     }).then(data => {
-      setSearchList(data?.data)
+      setSearchList(data?.data);
     });
-    setCurrentSongIndex(null)
+    setCurrentSongIndex(null);
   }, [searchValue]);
 
   const handleInputChange = (e) => {
-    setInputValue(e.target.value)
+    setInputValue(e.target.value);
   };
 
   const handleClickSearch = () => {
-    navigate("/mp3-download", {state: {search: inputValue}})
+    navigate("/mp3-download", { state: { search: inputValue } });
   };
 
   const handleSearchKeyDown = (e) => {
     if (e.keyCode === 13) {
-      navigate("/mp3-download", {state: {search: inputValue}})
+      navigate("/mp3-download", { state: { search: inputValue } });
     }
   };
 
   const handleClickAudioPlay = async (index, id) => {
     setCurrentSongIndex(index);
-    setLoading(true)
+    setLoading(true);
     try {
       const response = await fetch(`https://yt-source.nico.dev/${id}`);
       const json = await response.json();
       setAudioPlay(json);
-      setLoading(false)
+      setLoading(false);
     } catch (error) {
-      console.error('Error fetching data:', error);
+      console.error("Error fetching data:", error);
     }
-  }
+  };
 
   const handleDownloadMP3 = async (id) => {
     try {
       const response = await fetch(`https://mp3converter.fr/wp-content/plugins/youtube-mp3-by-leo/backend.php?id=${id}`);
       const json = await response.json();
-      if(json.link){
-        window.open(json.link,'_blank');
-      }else {
-        alert("This song not downloadable. Please try another")
+      if (json.link) {
+        window.open(json.link, "_blank");
+      } else {
+        alert("This song not downloadable. Please try another");
       }
     } catch (error) {
-      console.error('Error fetching data:', error);
+      console.error("Error fetching data:", error);
     }
-  }
+  };
 
   return (
     <>
@@ -71,7 +71,7 @@ const Download = (props) => {
           <div className="mb-2.5 text-center">
             <Link to="/" className="text-white text-[32px] inline-flex items-center"
                   title="MP3 PAW - Download MP3 Music Free">
-              <img className="mr-1 mb-0" src={Logo} alt="logo"/>
+              <img className="mr-1 mb-0" src={Logo} alt="logo" />
               <span className="font-sans mr-1">MP3 PAW</span>
             </Link>
           </div>
@@ -85,7 +85,7 @@ const Download = (props) => {
               className="hover:bg-[#6E360F] font-regular font-medium capitalize !outline-none w-full rounded-md h-[30px] pl-5 text-sm bg-transparent"
             />
             <button onClick={handleClickSearch}>
-              <img className="mb-0 cursor-pointer mr-2" src={SearchIcon} alt="SearchIcon"/>
+              <img className="mb-0 cursor-pointer mr-2" src={SearchIcon} alt="SearchIcon" />
             </button>
           </div>
         </div>
@@ -93,7 +93,7 @@ const Download = (props) => {
       {!searchList ?
         <div className="flex justify-center items-center fixed left-0 top-0 w-full h-full">
           <span className="w-24 h-24 animate-bounce">
-            <img src={Loader} className="text-primary" alt="loading"/>
+            <img src={Loader} className="text-primary" alt="loading" />
           </span>
         </div>
         :
@@ -150,10 +150,10 @@ const Download = (props) => {
                         </li>
                         <li className="w-[31%] cursor-pointer font-regular">
                           <button onClick={() => handleDownloadMP3(item?.videoId)}
-                            className="truncate py-1.5 px-2.5 rounded w-full text-primary border border-primary border-b-[3px] hover:bg-[#fef8f5]">
+                                  className="truncate py-1.5 px-2.5 rounded w-full text-primary border border-primary border-b-[3px] hover:bg-[#fef8f5]">
                             <strong className="font-semibold flex items-center">
                               <i className="fa fa-download mr-1.5"></i>
-                                <span className="text-[13px]">Download MP3</span>
+                              <span className="text-[13px]">Download MP3</span>
                             </strong>
                           </button>
                         </li>
@@ -172,7 +172,7 @@ const Download = (props) => {
                         <>
                           {(currentSongIndex === index && audioPlay) && (
                             <audio className="mt-2.5" preload controls autoPlay>
-                              <source src={audioPlay?.url}/>
+                              <source src={audioPlay?.url} />
                             </audio>
                           )}
                         </>
@@ -188,7 +188,7 @@ const Download = (props) => {
               <div>
                 <div className="mb-2.5 flex justify-center">
                   <Link to="/" className="text-white text-2xl flex" title="MP3 PAW - Download MP3 Music Free">
-                    <img className="mr-1 mb-0" src={Logo} alt="logo"/>
+                    <img className="mr-1 mb-0" src={Logo} alt="logo" />
                     <span className="font-sans mr-1">MP3 PAW</span>
                   </Link>
                 </div>
@@ -217,31 +217,31 @@ const Download = (props) => {
         </section>
       }
     </>
-  )
-}
+  );
+};
 
-export default Download
+export default Download;
 
 export const Head = () => (
   <>
-    <html lang="en"/>
+    <html lang="en" />
     <title>MP3 PAW - Download MP3 Music Free in High Quality</title>
-    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta httpEquiv="content-language" content="en-us"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="robots" content="noindex,nofollow"/>
+    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta httpEquiv="content-language" content="en-us" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow" />
     <meta name="description"
-          content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download."/>
+          content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
     <meta name="keywords"
-          content="MP3 PAW, download mp3, download music, 320kbps mp3, mp3 music, free mp3, free music"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:site_name" content="MP3 PAW - Free MP3 Downloads"/>
-    <meta property="og:url" content="https://mp3paw.mobi/"/>
-    <meta property="og:title" content="MP3 PAW - Download MP3 Music Free in High Quality"/>
-    <meta property="og:image" content="https://www.mp3juices.blog/free9/images/mp3juices.png"/>
+          content="MP3 PAW, download mp3, download music, 320kbps mp3, mp3 music, free mp3, free music" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="MP3 PAW - Free MP3 Downloads" />
+    <meta property="og:url" content="https://mp3paw.mobi/" />
+    <meta property="og:title" content="MP3 PAW - Download MP3 Music Free in High Quality" />
+    <meta property="og:image" content="https://www.mp3juices.blog/free9/images/mp3juices.png" />
     <meta property="og:description"
-          content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download."/>
-    <link rel="canonical" href="https://mp3paw.mobi/"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+          content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
+    <link rel="canonical" href="https://mp3paw.mobi/" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </>
-)
+);

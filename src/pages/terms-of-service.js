@@ -1,23 +1,23 @@
-import React, {useState} from "react";
-import {Link, navigate} from "gatsby";
-import SearchIcon from "../images/search-icon.svg"
-import Logo from "../images/logo.svg"
-import '../styles/global.css';
+import React, { useState } from "react";
+import { Link, navigate } from "gatsby";
+import SearchIcon from "../images/search-icon.svg";
+import Logo from "../images/logo.svg";
+import "../styles/global.css";
 
 const Terms = () => {
   const [inputValue, setInputValue] = useState("test");
 
   const handleInputChange = (e) => {
-    setInputValue(e.target.value)
+    setInputValue(e.target.value);
   };
 
   const handleClickSearch = () => {
-    navigate("/mp3-download", {state: {search: inputValue}})
+    navigate("/mp3-download", { state: { search: inputValue } });
   };
 
   const handleSearchKeyDown = (e) => {
     if (e.keyCode === 13) {
-      navigate("/mp3-download", {state: {search: inputValue}})
+      navigate("/mp3-download", { state: { search: inputValue } });
     }
   };
 
@@ -28,7 +28,7 @@ const Terms = () => {
           <div className="mb-2.5 text-center">
             <Link to="/" className="text-white text-[32px] inline-flex items-center"
                   title="MP3 PAW - Download MP3 Music Free">
-              <img className="mr-1 mb-0" src={Logo} alt="logo"/>
+              <img className="mr-1 mb-0" src={Logo} alt="logo" />
               <span className="font-sans mr-1">MP3 PAW</span>
             </Link>
           </div>
@@ -42,7 +42,7 @@ const Terms = () => {
               className="hover:bg-[#6E360F] capitalize font-regular font-medium !outline-none w-full rounded-md h-[30px] pl-5 text-sm bg-transparent"
             />
             <button onClick={handleClickSearch}>
-              <img className="mb-0 cursor-pointer mr-2" src={SearchIcon} alt="SearchIcon"/>
+              <img className="mb-0 cursor-pointer mr-2" src={SearchIcon} alt="SearchIcon" />
             </button>
           </div>
         </div>
@@ -150,7 +150,7 @@ const Terms = () => {
           <div>
             <div className="mb-2.5 flex justify-center">
               <Link to="/" className="text-white text-2xl flex" title="MP3 PAW - Download MP3 Music Free">
-                <img className="mr-1 mb-0" src={Logo} alt="logo"/>
+                <img className="mr-1 mb-0" src={Logo} alt="logo" />
                 <span className="font-sans mr-1">MP3 PAW</span>
               </Link>
             </div>
@@ -177,20 +177,20 @@ const Terms = () => {
         </div>
       </footer>
     </>
-  )
-}
+  );
+};
 
-export default Terms
+export default Terms;
 
 export const Head = () => (
   <>
-    <html lang="en"/>
+    <html lang="en" />
     <title>MP3 PAW - Terms And Conditions</title>
-    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta httpEquiv="content-language" content="en-us"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="robots" content="index,follow"/>
-    <meta name="description" content="Here you will find our terms of service."/>
-    <link rel="canonical" href="https://mp3paw.mobi/terms-of-service/"/>
+    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta httpEquiv="content-language" content="en-us" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="Here you will find our terms of service." />
+    <link rel="canonical" href="https://mp3paw.mobi/terms-of-service/" />
   </>
-)
+);

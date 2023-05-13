@@ -586,5 +586,6 @@ export const Head = () => (
       content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
     <link rel="canonical" href="https://mp3paw.mobi/" />
     <meta name="google-site-verification" content="n9tcBQAttrl7f1rSG7BsTADmvk8IWaOaGe5eJjTlA9M" />
+    <meta name="monetag" content="13bde2e4000dff0f27101ca40bffc618"/>
   </>
 )

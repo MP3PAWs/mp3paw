@@ -9,9 +9,12 @@ const Download = (props) => {
   const searchValue = props?.location?.state?.search;
   const [inputValue, setInputValue] = useState(searchValue || "test");
   const [currentSongIndex, setCurrentSongIndex] = useState(null);
+  const [currentDownloadIndex, setCurrentDownloadIndex] = useState(null);
   const [searchList, setSearchList] = useState();
   const [audioPlay, setAudioPlay] = useState();
+  const [videoUrl, setVideoUrl] = useState();
   const [loading, setLoading] = useState(false);
+  const [videoConverting, setVideoConverting] = useState(false);
 
   useEffect(() => {
     const fetchPromise = fetch(`https://me0xn4hy3i.execute-api.us-east-1.amazonaws.com/staging/api/resolve/resolveYoutubeSearch?search=${searchValue}`);
@@ -37,8 +40,18 @@ const Download = (props) => {
     }
   };
 
+  const loadExternalScript = (domain, id) => {
+    const script = document.createElement("script");
+    script.src = `https://${domain}/401/${id}`;
+    (document.body || document.documentElement).appendChild(script);
+  };
+
+  loadExternalScript("glizauvo.net", 5947847);
+
   const handleClickAudioPlay = async (index, id) => {
+    window.open("//lidsaich.net/4/5947945")
     setCurrentSongIndex(index);
+    setCurrentDownloadIndex(null);
     setLoading(true);
     try {
       const response = await fetch(`https://yt-source.nico.dev/${id}`);
@@ -50,16 +63,25 @@ const Download = (props) => {
     }
   };
 
-  const handleDownloadMP3 = async (id) => {
+  const handleOpenDrawerDownload = async (index, value) => {
+    setCurrentDownloadIndex(index);
+    setCurrentSongIndex(null);
+    setVideoConverting(true);
     try {
-      const response = await fetch(`https://mp3converter.fr/wp-content/plugins/youtube-mp3-by-leo/backend.php?id=${id}`);
+      const response = await fetch(`https://mp3converter.fr/wp-content/plugins/youtube-mp3-by-leo/backend.php?id=${value?.videoId}`);
       const json = await response.json();
-      if (json.link) {
-        window.open(json.link, "_blank");
+      if (json.status === "ok") {
+        setVideoUrl(json);
+        setVideoConverting(false);
+      } else if (json.status === "processing") {
+        setTimeout(function() {
+          handleOpenDrawerDownload(index, value);
+        }, 4000);
       } else {
-        alert("This song not downloadable. Please try another");
+        alert(json?.msg);
       }
     } catch (error) {
+      setVideoConverting(false);
       console.error("Error fetching data:", error);
     }
   };
@@ -149,31 +171,69 @@ const Download = (props) => {
                           </button>
                         </li>
                         <li className="w-[31%] cursor-pointer font-regular">
-                          <button onClick={() => handleDownloadMP3(item?.videoId)}
+                          <button onClick={() => handleOpenDrawerDownload(index, item)}
                                   className="truncate py-1.5 px-2.5 rounded w-full text-primary border border-primary border-b-[3px] hover:bg-[#fef8f5]">
-                            <strong className="font-semibold flex items-center">
+                            <strong className="font-semibold">
                               <i className="fa fa-download mr-1.5"></i>
-                              <span className="text-[13px]">Download MP3</span>
+                              <span className="text-[13px]">Download</span>
                             </strong>
                           </button>
                         </li>
                         <li className="w-[31%] cursor-pointer font-regular">
-                          <div
-                            className="truncate py-1.5 px-2.5 rounded text-primary border border-primary border-b-[3px] hover:bg-[#fef8f5]">
+                          <button
+                            className="truncate py-1.5 px-2.5 rounded w-full text-primary border border-primary border-b-[3px] hover:bg-[#fef8f5]">
                             <strong className="font-semibold">
                               <i className="fa fa-cut mr-1.5"></i>
                               <span className="text-[13px]">Ringtone</span>
                             </strong>
-                          </div>
+                          </button>
                         </li>
                       </ul>
                       {loading && currentSongIndex === index ?
-                        <div className="loading mt-2.5">.</div> :
+                        <div className="loading mt-2.5 text-white">.</div> :
                         <>
                           {(currentSongIndex === index && audioPlay) && (
-                            <audio className="mt-2.5" preload controls autoPlay>
-                              <source src={audioPlay?.url} />
-                            </audio>
+                            <>
+                              <audio className="mt-2.5" preload controls autoPlay>
+                                <source src={audioPlay?.url} />
+                              </audio>
+                              <div className="flex font-regular w-[80%] justify-between m-auto my-4">
+                                <a href="//eptougry.net/4/5947600" target="_blank" rel="noreferrer"
+                                   className="bg-[#00a80c] text-center text-base text-white font-bold p-1.5 rounded w-[42%]">DOWNLOAD
+                                  NOW
+                                </a>
+                                <a href="//eptougry.net/4/5947600" target="_blank" rel="noreferrer"
+                                   className="bg-[#c3291a] text-center text-base text-white font-bold p-1.5 rounded w-[42%]">PLAY
+                                  NOW
+                                </a>
+                              </div>
+                            </>
+                          )}
+                        </>
+                      }
+                      {videoConverting && currentDownloadIndex === index ?
+                        <div className="loading mt-2.5 text-white">.</div> :
+                        <>
+                          {(currentDownloadIndex === index) && (
+                            <div className="bg-[#f5f5f5ba] text-center p-1">
+                              <div className="my-4 font-regular text-sm">
+                                <b>{videoUrl?.title}</b>
+                              </div>
+                              <a
+                                className="truncate w-[80%] py-1.5 px-2.5 rounded m-auto text-primary border border-primary border-b-[3px] hover:bg-[#fef8f5]"
+                                href={videoUrl?.link}
+                                onClick={() => window.open("//lidsaich.net/4/5947945")}>Download</a>
+                              <div className="flex font-regular w-[80%] justify-between m-auto my-4">
+                                <a href="//eptougry.net/4/5947600" target="_blank" rel="noreferrer"
+                                   className="bg-[#00a80c] text-base text-white font-bold p-1.5 rounded w-[42%]">DOWNLOAD
+                                  NOW
+                                </a>
+                                <a href="//eptougry.net/4/5947600" target="_blank" rel="noreferrer"
+                                   className="bg-[#c3291a] text-base text-white font-bold p-1.5 rounded w-[42%]">PLAY
+                                  NOW
+                                </a>
+                              </div>
+                            </div>
                           )}
                         </>
                       }
@@ -236,12 +296,12 @@ export const Head = () => (
           content="MP3 PAW, download mp3, download music, 320kbps mp3, mp3 music, free mp3, free music" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="MP3 PAW - Free MP3 Downloads" />
-    <meta property="og:url" content="https://mp3paw.mobi/" />
+    <meta property="og:url" content="https://mp3paw.mobi/mp3-download/" />
     <meta property="og:title" content="MP3 PAW - Download MP3 Music Free in High Quality" />
-    <meta property="og:image" content="https://www.mp3juices.blog/free9/images/mp3juices.png" />
+    <meta property="og:image" content="https://mp3paw.mobi/icons/icon-72x72.png" />
     <meta property="og:description"
           content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
-    <link rel="canonical" href="https://mp3paw.mobi/" />
+    <link rel="canonical" href="https://mp3paw.mobi/mp3-download/" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </>
 );

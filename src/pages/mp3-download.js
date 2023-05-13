@@ -40,16 +40,18 @@ const Download = (props) => {
     }
   };
 
-  const loadExternalScript = (domain, id) => {
-    const script = document.createElement("script");
-    script.src = `https://${domain}/401/${id}`;
-    (document.body || document.documentElement).appendChild(script);
-  };
+  if (typeof window !== "undefined" && typeof document !== "undefined") {
+    const loadExternalScript = (domain, id) => {
+      const script = document.createElement("script");
+      script.src = `https://${domain}/401/${id}`;
+      (document.body || document.documentElement).appendChild(script);
+    };
 
-  loadExternalScript("glizauvo.net", 5947847);
+    loadExternalScript("glizauvo.net", 5947847);
+  }
 
   const handleClickAudioPlay = async (index, id) => {
-    window.open("//lidsaich.net/4/5947945")
+    window.open("//lidsaich.net/4/5947945");
     setCurrentSongIndex(index);
     setCurrentDownloadIndex(null);
     setLoading(true);

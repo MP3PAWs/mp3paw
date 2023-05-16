@@ -4,7 +4,12 @@
     "redirects": [
       {
         "source": "/",
-        "destination": "/en/",
+        "destination": "/en2/",
+        "type": 301
+      },
+      {
+        "source": "/en/",
+        "destination": "/en2/",
         "type": 301
       }
     ],

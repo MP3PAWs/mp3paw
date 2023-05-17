@@ -4,12 +4,17 @@
     "redirects": [
       {
         "source": "/",
-        "destination": "/en2/",
+        "destination": "/en3/",
         "type": 301
       },
       {
         "source": "/en/",
-        "destination": "/en2/",
+        "destination": "/en3/",
+        "type": 301
+      },
+      {
+        "source": "/en2/",
+        "destination": "/en3/",
         "type": 301
       }
     ],

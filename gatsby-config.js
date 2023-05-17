@@ -35,6 +35,7 @@ module.exports = {
         excludes: [
           `/`,
           `/en`,
+          `/en2`,
           `/404`,
           `/mp3-download`,
         ],

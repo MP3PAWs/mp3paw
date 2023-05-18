@@ -580,12 +580,12 @@ export const Head = () => (
           content="MP3 PAW, download mp3, download music, 320kbps mp3, mp3 music, free mp3, free music" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="MP3 PAW - Free MP3 Downloads" />
-    <meta property="og:url" content="https://mp3paw.mobi/en3/" />
+    <meta property="og:url" content="https://mp3paw.mobi/en10/" />
     <meta property="og:title" content="MP3 PAW - Download MP3 Music Free in High Quality" />
     <meta property="og:image" content="https://mp3paw.mobi/icons/icon-72x72.png" />
     <meta property="og:description"
           content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
-    <link rel="canonical" href="https://mp3paw.mobi/en3/" />
+    <link rel="canonical" href="https://mp3paw.mobi/en10/" />
     <meta name="google-site-verification" content="n9tcBQAttrl7f1rSG7BsTADmvk8IWaOaGe5eJjTlA9M" />
     <meta name="monetag" content="13bde2e4000dff0f27101ca40bffc618" />
   </>

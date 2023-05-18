@@ -27,7 +27,7 @@ const Index = () => {
       <header className="p-5 bg-primary border border-[#5d2e0d]">
         <div className="mx-auto max-w-[550px]">
           <div className="mb-2.5 text-center">
-            <Link to="/en10/" className="text-white text-[32px] inline-flex items-center"
+            <Link to="/ko/" className="text-white text-[32px] inline-flex items-center"
                   title="MP3 PAW - Download MP3 Music Free">
               <img className="mr-1 mb-0" src={Logo} alt="logo" />
               <span className="font-sans mr-1">MP3 PAW</span>
@@ -503,30 +503,27 @@ const Index = () => {
               </Link>
             </div>
           </div>
-          <h1 className="mt-6" title="MP3 PAW - Download Free MP3 Music">MP3 PAW - Download Free MP3 Music</h1>
+          <h1 className="mt-6" title="MP3 PAW - Download Free MP3 Music">MP3 PAW - 무료 MP3 음악 다운로드</h1>
           <p>
-            <Link className="contents text-[#551A8B]" to="https://mp3paw.mobi/en10/">MP3 Paw</Link>&nbsp;is an MP3 search
-            engine tool that allows you to search and download free MP3 music in high quality.
-            This website is compatible with all types of devices, such as computers, tablets, and smartphones. Simple
-            and user-friendly interference makes Mp3paw a popular MP3 downloader.
+            MP3 발 는 고품질의 무료 MP3 음악을 검색하고 다운로드할 수 있는 MP3 검색 엔진 도구입니다. 이 웹사이트는 컴퓨터, 태블릿 및 스마트폰과 같은 모든 유형의 장치와 호환됩니다. 간단하고
+            사용자 친화적인 간섭으로 인해 Mp3paw는 인기 있는 MP3 다운로더가 되었습니다.
           </p>
           <p>
-            You can download Mp3 quickly, easily, and Free with a few clicks. Just type a query of music you want to
-            download and click on the Download button. Downloads start within a few seconds.
+            몇 번의 클릭만으로 Mp3를 빠르고 쉽게 무료로 다운로드할 수 있습니다. 다운로드할 음악 검색어를 입력하고 다운로드 버튼을 클릭하기만 하면 됩니다. 몇 초 안에 다운로드가 시작됩니다.
           </p>
-          <h2 className="mt-2 pb-2" title="How to use an MP3 paw?">How to use an MP3 paw?</h2>
+          <h2 className="mt-2 pb-2" title="How to use an MP3 paw?">MP3 발을 사용하는 방법?</h2>
           <ol className="m-0 pl-4 list-decimal text-justify">
-            <li className="p-0 pb-2">Enter a keyword or music name into the search box.</li>
-            <li className="p-0 pb-2">Click the search button and wait until the list of results appears.</li>
-            <li className="p-0">Press the “Download” button that you want to download.</li>
+            <li className="p-0 pb-2">검색창에 키워드나 음악 이름을 입력하세요.</li>
+            <li className="p-0 pb-2">검색 버튼을 클릭하고 결과 목록이 나타날 때까지 기다립니다.</li>
+            <li className="p-0">다운로드를 원하는 "다운로드" 버튼을 누르세요.</li>
           </ol>
-          <h2 className="mt-5 pb-2" title="Mp3Paw Features">Mp3Paw Features</h2>
+          <h2 className="mt-5 pb-2" title="Mp3Paw Features">Mp3Paw 기능</h2>
           <ol className="m-0 pl-4 list-disc text-justify">
-            <li className="p-0 pb-2">High-speed conversion and download.</li>
-            <li className="p-0 pb-2">100% safe and secure.</li>
-            <li className="p-0 pb-2">Fully compatible with all browsers and devices.</li>
-            <li className="p-0 pb-2">There is no need to install apps or software.</li>
-            <li className="p-0 pb-2">Download MP3 totally free without limitation.</li>
+            <li className="p-0 pb-2">고속 변환 및 다운로드.</li>
+            <li className="p-0 pb-2">100% 안전하고 안전합니다.</li>
+            <li className="p-0 pb-2">모든 브라우저 및 장치와 완벽하게 호환됩니다.</li>
+            <li className="p-0 pb-2">앱이나 소프트웨어를 설치할 필요가 없습니다.</li>
+            <li className="p-0 pb-2">제한 없이 완전히 무료로 MP3를 다운로드하세요.</li>
           </ol>
         </div>
       </section>
@@ -569,24 +566,24 @@ export default Index;
 
 export const Head = () => (
   <>
-    <html lang="en" />
-    <title>MP3 PAW - Download MP3 Music Free in High Quality</title>
+    <html lang="ko" />
+    <title>MP3 PAW - 고품질 MP3 음악 무료 다운로드</title>
     <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta httpEquiv="content-language" content="en-us" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index,follow" />
     <meta name="description"
-          content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
+          content="MP3 Paw는 320kbps 고품질의 무료 MP3 음악 다운로드입니다. MP3 다운로드를 사용하는 것은 Popular 및 Essy입니다." />
     <meta name="keywords"
           content="MP3 PAW, download mp3, download music, 320kbps mp3, mp3 music, free mp3, free music" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="MP3 PAW - Free MP3 Downloads" />
-    <meta property="og:url" content="https://mp3paw.mobi/en2/" />
-    <meta property="og:title" content="MP3 PAW - Download MP3 Music Free in High Quality" />
+    <meta property="og:url" content="https://mp3paw.mobi/ko/" />
+    <meta property="og:title" content="MP3 PAW - 고품질 MP3 음악 무료 다운로드" />
     <meta property="og:image" content="https://mp3paw.mobi/icons/icon-72x72.png" />
     <meta property="og:description"
-          content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
-    <link rel="canonical" href="https://mp3paw.mobi/en2/" />
+          content="MP3 Paw는 320kbps 고품질의 무료 MP3 음악 다운로드입니다. MP3 다운로드를 사용하는 것은 Popular 및 Essy입니다." />
+    <link rel="canonical" href="https://mp3paw.mobi/ko/" />
     <meta name="google-site-verification" content="n9tcBQAttrl7f1rSG7BsTADmvk8IWaOaGe5eJjTlA9M" />
     <meta name="monetag" content="13bde2e4000dff0f27101ca40bffc618" />
     <Alternative />

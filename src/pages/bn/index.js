@@ -27,7 +27,7 @@ const Index = () => {
       <header className="p-5 bg-primary border border-[#5d2e0d]">
         <div className="mx-auto max-w-[550px]">
           <div className="mb-2.5 text-center">
-            <Link to="/en10/" className="text-white text-[32px] inline-flex items-center"
+            <Link to="/bn/" className="text-white text-[32px] inline-flex items-center"
                   title="MP3 PAW - Download MP3 Music Free">
               <img className="mr-1 mb-0" src={Logo} alt="logo" />
               <span className="font-sans mr-1">MP3 PAW</span>
@@ -503,30 +503,30 @@ const Index = () => {
               </Link>
             </div>
           </div>
-          <h1 className="mt-6" title="MP3 PAW - Download Free MP3 Music">MP3 PAW - Download Free MP3 Music</h1>
+          <h1 className="mt-6" title="MP3 PAW - Download Free MP3 Music">MP3 PAW - বিনামূল্যে MP3 সঙ্গীত ডাউনলোড
+            করুন</h1>
           <p>
-            <Link className="contents text-[#551A8B]" to="https://mp3paw.mobi/en10/">MP3 Paw</Link>&nbsp;is an MP3 search
-            engine tool that allows you to search and download free MP3 music in high quality.
-            This website is compatible with all types of devices, such as computers, tablets, and smartphones. Simple
-            and user-friendly interference makes Mp3paw a popular MP3 downloader.
+            MP3 Paw একটি MP3 সার্চ ইঞ্জিন টুল যা আপনাকে উচ্চ মানের বিনামূল্যে MP3 সঙ্গীত অনুসন্ধান এবং ডাউনলোড করতে
+            দেয়। এই ওয়েবসাইটটি সমস্ত ধরণের ডিভাইসের সাথে সামঞ্জস্যপূর্ণ, যেমন কম্পিউটার, ট্যাবলেট এবং স্মার্টফোন। সহজ
+            এবং ব্যবহারকারী-বান্ধব হস্তক্ষেপ Mp3paw একটি জনপ্রিয় MP3 ডাউনলোডার করে তোলে।
           </p>
           <p>
-            You can download Mp3 quickly, easily, and Free with a few clicks. Just type a query of music you want to
-            download and click on the Download button. Downloads start within a few seconds.
+            আপনি কয়েকটি ক্লিকে দ্রুত, সহজে এবং বিনামূল্যে Mp3 ডাউনলোড করতে পারেন। আপনি ডাউনলোড করতে চান এমন সঙ্গীতের
+            একটি ক্যোয়ারী টাইপ করুন এবং ডাউনলোড বোতামে ক্লিক করুন। ডাউনলোড কয়েক সেকেন্ডের মধ্যে শুরু হয়।
           </p>
-          <h2 className="mt-2 pb-2" title="How to use an MP3 paw?">How to use an MP3 paw?</h2>
+          <h2 className="mt-2 pb-2" title="How to use an MP3 paw?">কিভাবে একটি MP3 paw ব্যবহার করবেন?</h2>
           <ol className="m-0 pl-4 list-decimal text-justify">
-            <li className="p-0 pb-2">Enter a keyword or music name into the search box.</li>
-            <li className="p-0 pb-2">Click the search button and wait until the list of results appears.</li>
-            <li className="p-0">Press the “Download” button that you want to download.</li>
+            <li className="p-0 pb-2">অনুসন্ধান বাক্সে একটি কীওয়ার্ড বা সঙ্গীতের নাম লিখুন।</li>
+            <li className="p-0 pb-2">অনুসন্ধান বোতামে ক্লিক করুন এবং ফলাফলের তালিকা প্রদর্শিত হওয়া পর্যন্ত অপেক্ষা করুন।</li>
+            <li className="p-0">আপনি যে "ডাউনলোড" বোতামটি ডাউনলোড করতে চান সেটি টিপুন।</li>
           </ol>
-          <h2 className="mt-5 pb-2" title="Mp3Paw Features">Mp3Paw Features</h2>
+          <h2 className="mt-5 pb-2" title="Mp3Paw Features">Mp3Paw বৈশিষ্ট্য</h2>
           <ol className="m-0 pl-4 list-disc text-justify">
-            <li className="p-0 pb-2">High-speed conversion and download.</li>
-            <li className="p-0 pb-2">100% safe and secure.</li>
-            <li className="p-0 pb-2">Fully compatible with all browsers and devices.</li>
-            <li className="p-0 pb-2">There is no need to install apps or software.</li>
-            <li className="p-0 pb-2">Download MP3 totally free without limitation.</li>
+            <li className="p-0 pb-2">উচ্চ গতির রূপান্তর এবং ডাউনলোড।</li>
+            <li className="p-0 pb-2">100% নিরাপদ এবং নিরাপদ।</li>
+            <li className="p-0 pb-2">সমস্ত ব্রাউজার এবং ডিভাইসের সাথে সম্পূর্ণরূপে সামঞ্জস্যপূর্ণ।</li>
+            <li className="p-0 pb-2">অ্যাপ বা সফ্টওয়্যার ইনস্টল করার প্রয়োজন নেই।</li>
+            <li className="p-0 pb-2">সীমাবদ্ধতা ছাড়া সম্পূর্ণ বিনামূল্যে MP3 ডাউনলোড করুন।</li>
           </ol>
         </div>
       </section>
@@ -569,24 +569,24 @@ export default Index;
 
 export const Head = () => (
   <>
-    <html lang="en" />
-    <title>MP3 PAW - Download MP3 Music Free in High Quality</title>
+    <html lang="bn" />
+    <title>MP3 PAW - উচ্চ মানের MP3 সঙ্গীত বিনামূল্যে ডাউনলোড করুন</title>
     <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta httpEquiv="content-language" content="en-us" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index,follow" />
     <meta name="description"
-          content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
+          content="MP3 Paw হল বিনামূল্যে MP3 মিউজিক ডাউনলোড 320kbps উচ্চ মানের। MP3 ডাউনলোড ব্যবহার করার জন্য এটি জনপ্রিয় এবং Essy।" />
     <meta name="keywords"
           content="MP3 PAW, download mp3, download music, 320kbps mp3, mp3 music, free mp3, free music" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="MP3 PAW - Free MP3 Downloads" />
-    <meta property="og:url" content="https://mp3paw.mobi/en2/" />
-    <meta property="og:title" content="MP3 PAW - Download MP3 Music Free in High Quality" />
+    <meta property="og:url" content="https://mp3paw.mobi/bn/" />
+    <meta property="og:title" content="MP3 PAW - উচ্চ মানের MP3 সঙ্গীত বিনামূল্যে ডাউনলোড করুন" />
     <meta property="og:image" content="https://mp3paw.mobi/icons/icon-72x72.png" />
     <meta property="og:description"
-          content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
-    <link rel="canonical" href="https://mp3paw.mobi/en2/" />
+          content="MP3 Paw হল বিনামূল্যে MP3 মিউজিক ডাউনলোড 320kbps উচ্চ মানের। MP3 ডাউনলোড ব্যবহার করার জন্য এটি জনপ্রিয় এবং Essy।" />
+    <link rel="canonical" href="https://mp3paw.mobi/bn/" />
     <meta name="google-site-verification" content="n9tcBQAttrl7f1rSG7BsTADmvk8IWaOaGe5eJjTlA9M" />
     <meta name="monetag" content="13bde2e4000dff0f27101ca40bffc618" />
     <Alternative />

@@ -4,22 +4,27 @@
     "redirects": [
       {
         "source": "/",
-        "destination": "/en10/",
+        "destination": "/en9/",
         "type": 301
       },
       {
         "source": "/en/",
-        "destination": "/en10/",
+        "destination": "/en9/",
         "type": 301
       },
       {
         "source": "/en2/",
-        "destination": "/en10/",
+        "destination": "/en9/",
         "type": 301
       },
       {
         "source": "/en3/",
-        "destination": "/en10/",
+        "destination": "/en9/",
+        "type": 301
+      },
+      {
+        "source": "/en10/",
+        "destination": "/en9/",
         "type": 301
       }
     ],

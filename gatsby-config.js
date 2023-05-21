@@ -37,6 +37,8 @@ module.exports = {
           `/en`,
           `/en2`,
           `/en3`,
+          `/en9`,
+          `/en10`,
           `/404`,
           `/mp3-download`,
         ],

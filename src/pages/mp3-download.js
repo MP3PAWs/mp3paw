@@ -116,7 +116,7 @@ const Download = (props) => {
       </header>
       {!searchList ?
         <div className="flex justify-center items-center fixed left-0 top-0 w-full h-full">
-          <span className="w-24 h-24 animate-bounce">
+          <span className="w-24 h-24 flex animate-bounce">
             <img src={Loader} className="text-primary" alt="loading" />
           </span>
         </div>

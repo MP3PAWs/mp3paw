@@ -288,8 +288,6 @@ export const Head = () => (
   <>
     <html lang="en" />
     <title>MP3 PAW - Download MP3 Music Free in High Quality</title>
-    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta httpEquiv="content-language" content="en-us" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex,nofollow" />
     <meta name="description"

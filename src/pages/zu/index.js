@@ -27,7 +27,7 @@ const Index = () => {
       <header className="p-5 bg-primary border border-[#5d2e0d]">
         <div className="mx-auto max-w-[550px]">
           <div className="mb-2.5 text-center">
-            <Link to="/en/" className="text-white text-[32px] inline-flex items-center"
+            <Link to="/zu/" className="text-white text-[32px] inline-flex items-center"
                   title="MP3 PAW - Download MP3 Music Free">
               <img className="mr-1 mb-0" src={Logo} alt="logo" />
               <span className="font-sans mr-1">MP3 PAW</span>
@@ -170,30 +170,30 @@ const Index = () => {
               </Link>
             </div>
           </div>
-          <h1 className="mt-6" title="MP3 PAW - Download Free MP3 Music">MP3 PAW - Download Free MP3 Music</h1>
+          <h1 className="mt-6" title="MP3 PAW - Download Free MP3 Music">MP3 PAW - Landa Umculo Wamahhala we-MP3</h1>
           <p>
-            <Link className="contents text-[#551A8B]" to="https://mp3paw.mobi/en/">MP3 Paw</Link>&nbsp;is an MP3 search
-            engine tool that allows you to search and download free MP3 music in high quality.
-            This website is compatible with all types of devices, such as computers, tablets, and smartphones. Simple
-            and user-friendly interference makes Mp3paw a popular MP3 downloader.
+            MP3 Isandla iyithuluzi lenjini yokusesha ye-MP3 elikuvumela ukuthi useshe futhi ulande umculo wamahhala
+            we-MP3 ngekhwalithi ephezulu. Le webhusayithi isebenzisana nazo zonke izinhlobo zamadivayisi,
+            njengamakhompyutha, amathebulethi, nama-smartphone. Ukuphazamiseka okulula nokusebenziseka kalula kwenza
+            i-Mp3paw ibe isilandi se-MP3 esidumile.
           </p>
           <p>
-            You can download Mp3 quickly, easily, and Free with a few clicks. Just type a query of music you want to
-            download and click on the Download button. Downloads start within a few seconds.
+            Ungalanda i-Mp3 ngokushesha, kalula, futhi Mahhala ngokuchofoza okumbalwa. Vele uthayiphe umbuzo womculo
+            ofuna ukuwulanda bese uchofoza inkinobho ethi Landa. Ukulanda kuqala phakathi kwamasekhondi ambalwa.
           </p>
-          <h2 className="mt-2 pb-2" title="How to use an MP3 paw?">How to use an MP3 paw?</h2>
+          <h2 className="mt-2 pb-2" title="How to use an MP3 paw?">Ungayisebenzisa kanjani i-MP3 paw?</h2>
           <ol className="m-0 pl-4 list-decimal text-justify">
-            <li className="p-0 pb-2">Enter a keyword or music name into the search box.</li>
-            <li className="p-0 pb-2">Click the search button and wait until the list of results appears.</li>
-            <li className="p-0">Press the “Download” button that you want to download.</li>
+            <li className="p-0 pb-2">Faka igama elingukhiye noma igama lomculo ebhokisini lokusesha.</li>
+            <li className="p-0 pb-2">Chofoza inkinobho yokusesha bese ulinda kuze kuvele uhlu lwemiphumela.</li>
+            <li className="p-0">Cindezela inkinobho ethi "Landa" ofuna ukuyilanda.</li>
           </ol>
-          <h2 className="mt-5 pb-2" title="Mp3Paw Features">Mp3Paw Features</h2>
+          <h2 className="mt-5 pb-2" title="Mp3Paw Features">Izici ze-Mp3Paw</h2>
           <ol className="m-0 pl-4 list-disc text-justify">
-            <li className="p-0 pb-2">High-speed conversion and download.</li>
-            <li className="p-0 pb-2">100% safe and secure.</li>
-            <li className="p-0 pb-2">Fully compatible with all browsers and devices.</li>
-            <li className="p-0 pb-2">There is no need to install apps or software.</li>
-            <li className="p-0 pb-2">Download MP3 totally free without limitation.</li>
+            <li className="p-0 pb-2">Ukuguqulwa nokulanda okushesha kakhulu.</li>
+            <li className="p-0 pb-2">100% iphephile futhi ivikelekile.</li>
+            <li className="p-0 pb-2">Ihambisana ngokugcwele nazo zonke iziphequluli namadivayisi.</li>
+            <li className="p-0 pb-2">Asikho isidingo sokufaka izinhlelo zokusebenza noma isofthiwe.</li>
+            <li className="p-0 pb-2">Landa i-MP3 mahhala ngokuphelele ngaphandle komkhawulo.</li>
           </ol>
         </div>
       </section>
@@ -236,22 +236,22 @@ export default Index;
 
 export const Head = () => (
   <>
-    <html lang="en" />
-    <title>MP3 PAW - Download MP3 Music Free in High Quality</title>
+    <html lang="zu" />
+    <title>I-MP3 PAW - Landa Umculo we-MP3 wamahhala ngekhwalithi ephezulu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index,follow" />
     <meta name="description"
-          content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
+          content="I-MP3 Paw imahhala MP3 Landa Umculo ngekhwalithi ephezulu engu-320kbps. Kuyadumile futhi Essy ukusebenzisa MP3 Download." />
     <meta name="keywords"
           content="MP3 PAW, download mp3, download music, 320kbps mp3, mp3 music, free mp3, free music" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="MP3 PAW - Free MP3 Downloads" />
-    <meta property="og:url" content="https://mp3paw.mobi/en/" />
-    <meta property="og:title" content="MP3 PAW - Download MP3 Music Free in High Quality" />
+    <meta property="og:url" content="https://mp3paw.mobi/zu/" />
+    <meta property="og:title" content="I-MP3 PAW - Landa Umculo we-MP3 wamahhala ngekhwalithi ephezulu" />
     <meta property="og:image" content="https://mp3paw.mobi/icons/icon-72x72.png" />
     <meta property="og:description"
-          content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
-    <link rel="canonical" href="https://mp3paw.mobi/en/" />
+          content="I-MP3 Paw imahhala MP3 Landa Umculo ngekhwalithi ephezulu engu-320kbps. Kuyadumile futhi Essy ukusebenzisa MP3 Download." />
+    <link rel="canonical" href="https://mp3paw.mobi/zu/" />
     <meta name="google-site-verification" content="n9tcBQAttrl7f1rSG7BsTADmvk8IWaOaGe5eJjTlA9M" />
     <meta name="monetag" content="13bde2e4000dff0f27101ca40bffc618" />
     <Alternative />

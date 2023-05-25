@@ -55,451 +55,118 @@ const Index = () => {
             <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-wait-for-u"
-                state={{ search: "Future Wait For U" }}
-                title="Future Wait For U MP3 Download">
-                Future Wait For U
+                to="/mp3-download/#ed-sheeran"
+                state={{ search: "Ed Sheeran - Curtains" }}
+                title="Ed Sheeran - Curtains MP3 Song Download">
+                Ed Sheeran - Curtains
               </Link>
             </div>
             <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-puffin-on-zootiez"
-                state={{ search: "Future PUFFIN ON ZOOTIEZ" }}
-                title="Future PUFFIN ON ZOOTIEZ MP3 Download">
-                Future PUFFIN ON ZOOTIEZ
+                to="/mp3-download/#rema-selena-gomez-calm-down"
+                state={{ search: "Rema, Selena Gomez - Calm Down" }}
+                title="Rema, Selena Gomez - Calm Down MP3 Song Download">
+                Rema, Selena Gomez - Calm Down
               </Link>
             </div>
             <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-712pm"
-                state={{ search: "Future 712PM" }}
-                title="Future 712PM MP3 Download">
-                Future 712PM
+                to="/mp3-download/#miley-cyrus-flowers"
+                state={{ search: "Miley Cyrus - Flowers" }}
+                title="Miley Cyrus - Flowers MP3 Song Download">
+                Miley Cyrus - Flowers
               </Link>
             </div>
             <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-im-dat-nigga"
-                state={{ search: "Future I'M DAT N***A" }}
-                title="Future I'M DAT N***A MP3 Download">
-                Future I'M DAT N***A
+                to="/mp3-download/#sza-kill-bill"
+                state={{ search: "SZA - Kill Bill" }}
+                title="SZA - Kill Bill MP3 Song Download">
+                SZA - Kill Bill
               </Link>
             </div>
             <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-love-you-better"
-                state={{ search: "Future LOVE YOU BETTER" }}
-                title="Future LOVE YOU BETTER MP3 Download">
-                Future LOVE YOU BETTER
+                to="/mp3-download/#post-malone-chemical"
+                state={{ search: "Post Malone - Chemical" }}
+                title="Post Malone - Chemical MP3 Song Download">
+                Post Malone - Chemical
               </Link>
             </div>
             <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-im-on-one"
-                state={{ search: "Future I'M ON ONE" }}
-                title="Future I'M ON ONE MP3 Download">
-                Future I'M ON ONE
+                to="/mp3-download/#david-kushner-daylight"
+                state={{ search: "David Kushner - Daylight" }}
+                title="David Kushner - Daylight MP3 Song Download">
+                David Kushner - Daylight
               </Link>
             </div>
             <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-keep-it-burnin"
-                state={{ search: "Future KEEP IT BURNIN" }}
-                title="Future KEEP IT BURNIN MP3 Download">
-                Future KEEP IT BURNIN
+                to="/mp3-download/#coi-leray-players"
+                state={{ search: "Coi Leray - Players" }}
+                title="Coi Leray - Players MP3 Song Download">
+                Coi Leray - Players
               </Link>
             </div>
             <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-massaging-me"
-                state={{ search: "Future MASSAGING ME" }}
-                title="Future MASSAGING ME MP3 Download">
-                Future MASSAGING ME
+                to="/mp3-download/#the-weeknd-and-ariana-grande-die-for-you"
+                state={{ search: "The Weeknd & Ariana Grande - Die For You" }}
+                title="The Weeknd & Ariana Grande - Die For You MP3 Song Download">
+                The Weeknd & Ariana Grande - Die For You
               </Link>
             </div>
             <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-chickens"
-                state={{ search: "Future CHICKENS" }}
-                title="Future CHICKENS MP3 Download">
-                Future CHICKENS
+                to="/mp3-download/#yng-lvcas-and-peso-pluma-la-bebe"
+                state={{ search: "Yng Lvcas & Peso Pluma - La Bebe" }}
+                title="Yng Lvcas & Peso Pluma - La Bebe MP3 Song Download">
+                Yng Lvcas & Peso Pluma - La Bebe
               </Link>
             </div>
             <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-for-a-nut"
-                state={{ search: "Future FOR A NUT" }}
-                title="Future FOR A NUT MP3 Download">
-                Future FOR A NUT
+                to="/mp3-download/#shakira-acróstico"
+                state={{ search: "Shakira - Acróstico" }}
+                title="Shakira - Acróstico MP3 Song Download">
+                Shakira - Acróstico
               </Link>
             </div>
             <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-gold-stacks"
-                state={{ search: "Future GOLD STACKS" }}
-                title="Future GOLD STACKS MP3 Download">
-                Future GOLD STACKS
+                to="/mp3-download/#ella-baila-sola"
+                state={{ search: "Ella Baila Sola" }}
+                title="Ella Baila Sola MP3 Song Download">
+                Ella Baila Sola
               </Link>
             </div>
             <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#jack-harlow-first-class"
-                state={{ search: "Jack Harlow First Class" }}
-                title="Jack Harlow First Class MP3 Download">
-                Jack Harlow First Class
+                to="/mp3-download/#grupo-frontera-x-bad-bunny"
+                state={{ search: "Grupo Frontera x Bad Bunny" }}
+                title="Grupo Frontera x Bad Bunny MP3 Song Download">
+                Grupo Frontera x Bad Bunny
               </Link>
             </div>
             <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
               <Link
                 className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-voodoo"
-                state={{ search: "Future VOODOO" }}
-                title="Future VOODOO MP3 Download">
-                Future VOODOO
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-we-jus-wanna-get-high"
-                state={{ search: "Future WE JUS WANNA GET HIGH" }}
-                title="Future WE JUS WANNA GET HIGH MP3 Download">
-                Future WE JUS WANNA GET HIGH
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-holy-ghost"
-                state={{ search: "Future HOLY GHOST" }}
-                title="Future HOLY GHOST MP3 Download">
-                Future HOLY GHOST
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-the-way-things-going"
-                state={{ search: "Future THE WAY THINGS GOING" }}
-                title="Future THE WAY THINGS GOING MP3 Download">
-                Future THE WAY THINGS GOING
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#future-back-to-the-basics"
-                state={{ search: "Future BACK TO THE BASICS" }}
-                title="Future BACK TO THE BASICS MP3 Download">
-                Future BACK TO THE BASICS
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#harry-styles-as-it-was"
-                state={{ search: "Harry Styles As It Was" }}
-                title="Harry Styles As It Was MP3 Download">
-                Harry Styles As It Was
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#lil-baby-in-a-minute"
-                state={{ search: "Lil Baby In A Minute" }}
-                title="Lil Baby In A Minute MP3 Download">
-                Lil Baby In A Minute
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#lil-baby-frozen"
-                state={{ search: "Lil Baby Frozen" }}
-                title="Lil Baby Frozen MP3 Download">
-                Lil Baby Frozen
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#lil-durk-what-happened-to-virgil"
-                state={{ search: "Lil Durk What Happened To Virgil" }}
-                title="Lil Durk What Happened To Virgil MP3 Download">
-                Lil Durk What Happened To Virgil
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#lil-baby-right-on"
-                state={{ search: "Lil Baby Right On" }}
-                title="Lil Baby Right On MP3 Download">
-                Lil Baby Right On
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#kodak-black-super-gremlin"
-                state={{ search: "Kodak Black Super Gremlin" }}
-                title="Kodak Black Super Gremlin MP3 Download">
-                Kodak Black Super Gremlin
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#karol-g-provenza"
-                state={{ search: "KAROL G PROVENZA" }}
-                title="KAROL G PROVENZA MP3 Download">
-                KAROL G PROVENZA
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#nocap-vaccine"
-                state={{ search: "NoCap Vaccine" }}
-                title="NoCap Vaccine MP3 Download">
-                NoCap Vaccine
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#morgan-wallen-dont-think-jesus"
-                state={{ search: "Morgan Wallen Don't Think Jesus" }}
-                title="Morgan Wallen Don't Think Jesus MP3 Download">
-                Morgan Wallen Don't Think Jesus
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#megan-thee-stallion-plan-b"
-                state={{ search: "Megan Thee Stallion Plan B" }}
-                title="Megan Thee Stallion Plan B MP3 Download">
-                Megan Thee Stallion Plan B
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#drake-wants-and-needs"
-                state={{ search: "Drake Wants and Needs" }}
-                title="Drake Wants and Needs MP3 Download">
-                Drake Wants and Needs
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#the-kid-laroi-thousand-miles"
-                state={{ search: "The Kid LAROI Thousand Miles" }}
-                title="The Kid LAROI Thousand Miles MP3 Download">
-                The Kid LAROI Thousand Miles
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#gunna-pushin-p"
-                state={{ search: "Gunna pushin P" }}
-                title="Gunna pushin P MP3 Download">
-                Gunna pushin P
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#lil-durk-ahhh-ha"
-                state={{ search: "Lil Durk AHHH HA" }}
-                title="Lil Durk AHHH HA MP3 Download">
-                Lil Durk AHHH HA
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#becky-g-mamiii"
-                state={{ search: "Becky G. MAMIII" }}
-                title="Becky G. MAMIII MP3 Download">
-                Becky G. MAMIII
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#glass-animals-heat-waves"
-                state={{ search: "Glass Animals Heat Waves" }}
-                title="Glass Animals Heat Waves MP3 Download">
-                Glass Animals Heat Waves
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#lucky-daye-over"
-                state={{ search: "Lucky Daye Over" }}
-                title="Lucky Daye Over MP3 Download">
-                Lucky Daye Over
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#lauren-spencer-smith-flowers"
-                state={{ search: "Lauren Spencer-Smith Flowers" }}
-                title="Lauren Spencer-Smith Flowers MP3 Download">
-                Lauren Spencer-Smith Flowers
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#sleazyworld-go-sleazy-flow"
-                state={{ search: "SleazyWorld Go Sleazy Flow" }}
-                title="SleazyWorld Go Sleazy Flow MP3 Download">
-                SleazyWorld Go Sleazy Flow
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#nocap-very-special"
-                state={{ search: "NoCap Very Special" }}
-                title="NoCap Very Special MP3 Download">
-                NoCap Very Special
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#drake-knife-talk"
-                state={{ search: "Drake Knife Talk" }}
-                title="Drake Knife Talk MP3 Download">
-                Drake Knife Talk
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#benson-boone-in-the-stars"
-                state={{ search: "Benson Boone In The Stars" }}
-                title="Benson Boone In The Stars MP3 Download">
-                Benson Boone In The Stars
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#giveon-lie-again"
-                state={{ search: "GIVĒON Lie Again" }}
-                title="GIVĒON Lie Again MP3 Download">
-                GIVĒON Lie Again
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#justin-bieber-honest"
-                state={{ search: "Justin Bieber Honest" }}
-                title="Justin Bieber Honest MP3 Download">
-                Justin Bieber Honest
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#gunna-banking-on-me"
-                state={{ search: "Gunna Banking On Me" }}
-                title="Gunna Banking On Me MP3 Download">
-                Gunna Banking On Me
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#nardo-wick-me-or-sum"
-                state={{ search: "Nardo Wick Me or Sum" }}
-                title="Nardo Wick Me or Sum MP3 Download">
-                Nardo Wick Me or Sum
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#lil-durk-broadway-girls"
-                state={{ search: "Lil Durk Broadway Girls" }}
-                title="Lil Durk Broadway Girls MP3 Download">
-                Lil Durk Broadway Girls
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#muni-long-hrs-hrs"
-                state={{ search: "Muni Long Hrs & Hrs" }}
-                title="Muni Long Hrs & Hrs MP3 Download">
-                Muni Long Hrs & Hrs
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#lil-durk-petty-too"
-                state={{ search: "Lil Durk Petty Too" }}
-                title="Lil Durk Petty Too MP3 Download">
-                Lil Durk Petty Too
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#nocap-ill-be-here"
-                state={{ search: "NoCap I'll Be Here" }}
-                title="NoCap I'll Be Here MP3 Download">
-                NoCap I'll Be Here
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#the-kid-laroi-stay"
-                state={{ search: "The Kid LAROI STAY" }}
-                title="The Kid LAROI STAY MP3 Download">
-                The Kid LAROI STAY
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#zach-bryan-something-in-the-orange"
-                state={{ search: "Zach Bryan Something in the Orange" }}
-                title="Zach Bryan Something in the Orange MP3 Download">
-                Zach Bryan Something in the Orange
-              </Link>
-            </div>
-            <div className="bg-[#fbede4] hover:bg-[#fef8f5] rounded-md mb-2.5">
-              <Link
-                className="p-2.5 text-[#2a1406] text-sm"
-                to="/mp3-download/#sza-i-hate-u"
-                state={{ search: "SZA I Hate U" }}
-                title="SZA I Hate U MP3 Download">
-                SZA I Hate U
+                to="/mp3-download/#aventura-ella-y-yo"
+                state={{ search: "Aventura - Ella y Yo" }}
+                title="Aventura - Ella y Yo MP3 Song Download">
+                Aventura - Ella y Yo
               </Link>
             </div>
           </div>
@@ -575,8 +242,6 @@ export const Head = () => (
   <>
     <html lang="fr" />
     <title>MP3 PAW - Télécharger de la musique MP3 gratuite en haute qualité</title>
-    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta httpEquiv="content-language" content="en-us" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index,follow" />
     <meta name="description"

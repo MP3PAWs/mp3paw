@@ -4,32 +4,37 @@
     "redirects": [
       {
         "source": "/",
-        "destination": "/en50/",
+        "destination": "/en101/",
         "type": 301
       },
       {
         "source": "/en/",
-        "destination": "/en50/",
+        "destination": "/en101/",
         "type": 301
       },
       {
         "source": "/en2/",
-        "destination": "/en50/",
+        "destination": "/en101/",
         "type": 301
       },
       {
         "source": "/en3/",
-        "destination": "/en50/",
+        "destination": "/en101/",
         "type": 301
       },
       {
         "source": "/en10/",
-        "destination": "/en50/",
+        "destination": "/en101/",
         "type": 301
       },
       {
         "source": "/en9/",
-        "destination": "/en50/",
+        "destination": "/en101/",
+        "type": 301
+      },
+      {
+        "source": "/en50/",
+        "destination": "/en101/",
         "type": 301
       }
     ],

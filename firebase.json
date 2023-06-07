@@ -147,6 +147,7 @@
         "destination": "https://wwv.mp3paw.mobi/",
         "type": 301
       }
+
     ],
     "ignore": [
       "firebase.json",

@@ -108,46 +108,45 @@
         "type": 301
       },
       {
+        "source": "/",
+        "destination": "/en51/",
+        "type": 301
+      },
+      {
         "source": "/en/",
-        "destination": "https://wwv.mp3paw.mobi/",
+        "destination": "/en51/",
         "type": 301
       },
       {
         "source": "/en2/",
-        "destination": "https://wwv.mp3paw.mobi/",
+        "destination": "/en51/",
         "type": 301
       },
       {
         "source": "/en3/",
-        "destination": "https://wwv.mp3paw.mobi/",
+        "destination": "/en51/",
         "type": 301
       },
       {
         "source": "/en10/",
-        "destination": "https://wwv.mp3paw.mobi/",
+        "destination": "/en51/",
         "type": 301
       },
       {
         "source": "/en9/",
-        "destination": "https://wwv.mp3paw.mobi/",
+        "destination": "/en51/",
         "type": 301
       },
       {
         "source": "/en50/",
-        "destination": "https://wwv.mp3paw.mobi/",
+        "destination": "/en51/",
         "type": 301
       },
       {
         "source": "/en101/",
-        "destination": "https://wwv.mp3paw.mobi/",
-        "type": 301
-      },
-      {
-        "source": "https://mp3paw.mobi/en51/",
-        "destination": "https://wwv.mp3paw.mobi/",
+        "destination": "/en51/",
         "type": 301
       }
-
     ],
     "ignore": [
       "firebase.json",

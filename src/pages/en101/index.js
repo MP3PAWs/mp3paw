@@ -172,8 +172,13 @@ const Index = () => {
           </div>
           <h1 className="mt-6" title="MP3 PAW - Download Free MP3 Music">MP3 PAW - Download Free MP3 Music</h1>
           <p>
-            <Link className="contents text-[#551A8B]" to="https://mp3paw.mobi/en101/">MP3 Paw</Link>&nbsp;is an MP3 search
-            engine tool that allows you to search and download free MP3 music in high quality.
+            <Link className="contents text-[#551A8B]" to="https://mp3paw.mobi/en101/">Mp3Paw</Link>&nbsp;is one
+            of the popular music and free mp3 search engine that allows you to find and download mp3 songs in
+            high-quality, up to 320kbps. Mp3 Paw website offer to download mp3 music and videos from various sources
+            it's completely free, fast and easy to use.
+          </p>
+          <p>
+            MP3 Paw is an MP3 search engine tool that allows you to search and download free MP3 music in high quality.
             This website is compatible with all types of devices, such as computers, tablets, and smartphones. Simple
             and user-friendly interference makes Mp3paw a popular MP3 downloader.
           </p>

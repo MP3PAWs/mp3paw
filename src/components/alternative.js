@@ -3,7 +3,7 @@ import React from "react";
 const Alternative = () => {
   return (
     <>
-      <link rel="alternate" hrefLang="en" href="https://mp3paw.mobi/en101/" />
+      <link rel="alternate" hrefLang="en" href="https://mp3paw.mobi/en51/" />
       <link rel="alternate" hrefLang="de" href="https://mp3paw.mobi/de2/" />
       <link rel="alternate" hrefLang="es" href="https://mp3paw.mobi/es2/" />
       <link rel="alternate" hrefLang="fr" href="https://mp3paw.mobi/fr2/" />
@@ -24,7 +24,7 @@ const Alternative = () => {
       <link rel="alternate" hrefLang="zh-tw" href="https://mp3paw.mobi/zh-tw2/" />
       <link rel="alternate" hrefLang="ar" href="https://mp3paw.mobi/ar2/" />
       <link rel="alternate" hrefLang="bn" href="https://mp3paw.mobi/bn2/" />
-      <link rel="alternate" hrefLang="x-default" href="https://mp3paw.mobi/en101/" />
+      <link rel="alternate" hrefLang="x-default" href="https://mp3paw.mobi/en51/" />
     </>
   );
 };

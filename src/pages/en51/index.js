@@ -27,7 +27,7 @@ const Index = () => {
       <header className="p-5 bg-primary border border-[#5d2e0d]">
         <div className="mx-auto max-w-[550px]">
           <div className="mb-2.5 text-center">
-            <Link to="/en/" className="text-white text-[32px] inline-flex items-center"
+            <Link to="/en51/" className="text-white text-[32px] inline-flex items-center"
                   title="MP3 PAW - Download MP3 Music Free">
               <img className="mr-1 mb-0" src={Logo} alt="logo" />
               <span className="font-sans mr-1">MP3 PAW</span>
@@ -172,8 +172,13 @@ const Index = () => {
           </div>
           <h1 className="mt-6" title="MP3 PAW - Download Free MP3 Music">MP3 PAW - Download Free MP3 Music</h1>
           <p>
-            <Link className="contents text-[#551A8B]" to="https://mp3paw.mobi/en/">MP3 Paw</Link>&nbsp;is an MP3 search
-            engine tool that allows you to search and download free MP3 music in high quality.
+            <Link className="contents text-[#551A8B]" to="https://mp3paw.mobi/en51/">Mp3Paw</Link>&nbsp;is one
+            of the popular music and free mp3 search engine that allows you to find and download mp3 songs in
+            high-quality, up to 320kbps. Mp3 Paw website offer to download mp3 music and videos from various sources
+            it's completely free, fast and easy to use.
+          </p>
+          <p>
+            MP3 Paw is an MP3 search engine tool that allows you to search and download free MP3 music in high quality.
             This website is compatible with all types of devices, such as computers, tablets, and smartphones. Simple
             and user-friendly interference makes Mp3paw a popular MP3 downloader.
           </p>
@@ -201,14 +206,14 @@ const Index = () => {
         <div className="mx-auto max-w-[550px]">
           <div>
             <div className="mb-2.5 flex justify-center">
-              <Link to="/" className="text-white text-2xl flex" title="MP3 PAW - Download MP3 Music Free">
+              <Link to="/en51/" className="text-white text-2xl flex" title="MP3 PAW - Download MP3 Music Free">
                 <img className="mr-1 mb-0" src={Logo} alt="logo" />
                 <span className="font-sans mr-1">MP3 PAW</span>
               </Link>
             </div>
             <ul className="mt-2.5 mb-1">
               <li className="inline-block mr-3">
-                <Link className="text-xs text-[#FFF]" to="/" title="MP3 PAW - Download MP3 Music Free">MP3
+                <Link className="text-xs text-[#FFF]" to="/en51/" title="MP3 PAW - Download MP3 Music Free">MP3
                   PAW</Link>
               </li>
               <li className="inline-block mr-3">
@@ -246,12 +251,12 @@ export const Head = () => (
           content="MP3 PAW, download mp3, download music, 320kbps mp3, mp3 music, free mp3, free music" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="MP3 PAW - Free MP3 Downloads" />
-    <meta property="og:url" content="https://mp3paw.mobi/en/" />
+    <meta property="og:url" content="https://mp3paw.mobi/en51/" />
     <meta property="og:title" content="MP3 PAW - Download MP3 Music Free in High Quality" />
     <meta property="og:image" content="https://mp3paw.mobi/icons/icon-72x72.png" />
     <meta property="og:description"
           content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
-    <link rel="canonical" href="https://mp3paw.mobi/en/" />
+    <link rel="canonical" href="https://mp3paw.mobi/en51/" />
     <meta name="google-site-verification" content="n9tcBQAttrl7f1rSG7BsTADmvk8IWaOaGe5eJjTlA9M" />
     <meta name="monetag" content="13bde2e4000dff0f27101ca40bffc618" />
     <Alternative />

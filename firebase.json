@@ -141,6 +141,11 @@
         "source": "/en50/",
         "destination": "/en101/",
         "type": 301
+      },
+      {
+        "source": "/en51/",
+        "destination": "https://wwv.mp3paw.mobi/",
+        "type": 301
       }
     ],
     "ignore": [

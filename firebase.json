@@ -149,7 +149,7 @@
       },
       {
         "source": "/en51/",
-        "destination": "https://wwv.mp3paw.mobi/",
+        "destination": "/",
         "type": 301
       }
     ],

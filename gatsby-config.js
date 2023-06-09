@@ -1,6 +1,5 @@
 const React = require("react");
 module.exports = {
-  pathPrefix: "/wwv",
   siteMetadata: {
     title: `MP3Paw`,
     description: `MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download.`,

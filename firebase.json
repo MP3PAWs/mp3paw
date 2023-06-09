@@ -190,8 +190,8 @@
         "type": 301
       },
       {
-        "source": "/en50/",
-        "destination": "/wwv/:splat",
+        "source": "/en51/*",
+        "destination": "https://wwv.mp3paw.mobi/:splat",
         "type": 301
       },
       {

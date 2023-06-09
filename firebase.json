@@ -191,7 +191,7 @@
       },
       {
         "source": "/en50/",
-        "destination": "/en51/",
+        "destination": "/wwv/:splat",
         "type": 301
       },
       {

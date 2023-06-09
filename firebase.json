@@ -190,13 +190,18 @@
         "type": 301
       },
       {
-        "source": "/en51/*",
-        "destination": "https://wwv.mp3paw.mobi/:splat",
+        "source": "/en50/",
+        "destination": "https://wwv.mp3paw.mobi/",
         "type": 301
       },
       {
         "source": "/en101/",
         "destination": "/en51/",
+        "type": 301
+      },
+      {
+        "source": "/en51/",
+        "destination": "https://wwv.mp3paw.mobi/",
         "type": 301
       }
     ]

@@ -55,13 +55,148 @@
     ],
     "redirects": [
       {
-        "source": "/",
-        "destination": "https://wwv.mp3paw.mobi/",
+        "source": "/ar/",
+        "destination": "/ar2/",
         "type": 301
       },
       {
-        "source": "/en50/*",
-        "destination": "https://wwv.mp3paw.mobi/:splat",
+        "source": "/bn/",
+        "destination": "/bn2/",
+        "type": 301
+      },
+      {
+        "source": "/de/",
+        "destination": "/de2/",
+        "type": 301
+      },
+      {
+        "source": "/es/",
+        "destination": "/es2/",
+        "type": 301
+      },
+      {
+        "source": "/fr/",
+        "destination": "/fr2/",
+        "type": 301
+      },
+      {
+        "source": "/hi/",
+        "destination": "/hi2/",
+        "type": 301
+      },
+      {
+        "source": "/id/",
+        "destination": "/id2/",
+        "type": 301
+      },
+      {
+        "source": "/it/",
+        "destination": "/it2/",
+        "type": 301
+      },
+      {
+        "source": "/ja/",
+        "destination": "/ja2/",
+        "type": 301
+      },
+      {
+        "source": "/ko/",
+        "destination": "/ko2/",
+        "type": 301
+      },
+      {
+        "source": "/ms/",
+        "destination": "/ms2/",
+        "type": 301
+      },
+      {
+        "source": "/my/",
+        "destination": "/my2/",
+        "type": 301
+      },
+      {
+        "source": "/pt/",
+        "destination": "/pt2/",
+        "type": 301
+      },
+      {
+        "source": "/ru/",
+        "destination": "/ru2/",
+        "type": 301
+      },
+      {
+        "source": "/th/",
+        "destination": "/th2/",
+        "type": 301
+      },
+      {
+        "source": "/tl-ph/",
+        "destination": "/tl-ph2/",
+        "type": 301
+      },
+      {
+        "source": "/tr/",
+        "destination": "/tr2/",
+        "type": 301
+      },
+      {
+        "source": "/vi/",
+        "destination": "/vi2/",
+        "type": 301
+      },
+      {
+        "source": "/zh-cn/",
+        "destination": "/zh-cn2/",
+        "type": 301
+      },
+      {
+        "source": "/zh-tw/",
+        "destination": "/zh-tw2/",
+        "type": 301
+      },
+      {
+        "source": "/zu/",
+        "destination": "/zu2/",
+        "type": 301
+      },
+      {
+        "source": "/",
+        "destination": "/en51/",
+        "type": 301
+      },
+      {
+        "source": "/en/",
+        "destination": "/en51/",
+        "type": 301
+      },
+      {
+        "source": "/en2/",
+        "destination": "/en51/",
+        "type": 301
+      },
+      {
+        "source": "/en3/",
+        "destination": "/en51/",
+        "type": 301
+      },
+      {
+        "source": "/en10/",
+        "destination": "/en51/",
+        "type": 301
+      },
+      {
+        "source": "/en9/",
+        "destination": "/en51/",
+        "type": 301
+      },
+      {
+        "source": "/en50/",
+        "destination": "/en51/",
+        "type": 301
+      },
+      {
+        "source": "/en101/",
+        "destination": "/en51/",
         "type": 301
       }
     ]

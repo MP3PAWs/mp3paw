@@ -28,9 +28,9 @@ const Index = () => {
         <div className="mx-auto max-w-[550px]">
           <div className="mb-2.5 text-center">
             <Link to="/en51/" className="text-white text-[32px] inline-flex items-center"
-                  title="MP3 PAW - Download MP3 Music Free">
+              title="MP3 PAW - Download MP3 Music Free">
               <img className="mr-1 mb-0" src={Logo} alt="logo" />
-              <span className="font-sans mr-1">MP3 PAW</span>
+              <h1 className="font-sans text-white mr-1">MP3 PAW</h1>
             </Link>
           </div>
           <div className="bg-[#7F3F11] hover:bg-[#6E360F] py-small rounded-md text-white flex">
@@ -172,15 +172,15 @@ const Index = () => {
           </div>
           <h1 className="mt-6" title="MP3 PAW - Download Free MP3 Music">MP3 PAW - Download Free MP3 Music</h1>
           <p>
-            <Link className="contents text-[#551A8B]" to="https://mp3paw.mobi/en51/">Mp3Paw</Link>&nbsp;is one
+            <a className="contents text-[#551A8B]" href="https://mp3paw.mobi/en51/">Mp3Paw</a> is one
             of the popular music and free mp3 search engine that allows you to find and download mp3 songs in
             high-quality, up to 320kbps. Mp3 Paw website offer to download mp3 music and videos from various sources
             it's completely free, fast and easy to use.
           </p>
           <p>
-            MP3 Paw is an MP3 search engine tool that allows you to search and download free MP3 music in high quality.
+            <a className="contents text-[#551A8B]" href="https://mp3paw.mobi/en51/">MP3 Paw</a> is an MP3 search engine tool that allows you to search and download free MP3 music in high quality.
             This website is compatible with all types of devices, such as computers, tablets, and smartphones. Simple
-            and user-friendly interference makes Mp3paw a popular MP3 downloader.
+            and user-friendly interference makes <a className="contents text-[#551A8B]" href="https://mp3paw.mobi/en51/">mp3 paw</a> a popular MP3 downloader.
           </p>
           <p>
             You can download Mp3 quickly, easily, and Free with a few clicks. Just type a query of music you want to
@@ -200,6 +200,23 @@ const Index = () => {
             <li className="p-0 pb-2">There is no need to install apps or software.</li>
             <li className="p-0 pb-2">Download MP3 totally free without limitation.</li>
           </ol>
+          <h2 className="mt-5 pb-2" title="Mp3Paw Features">How to download MP3 Music using mp3paw?</h2>
+          <ol className="m-0 pl-4 list-decimal text-justify">
+            <li className="p-0 pb-2">Enter the search Keyword or Paste the YouTube URL in the search field.</li>
+            <li className="p-0 pb-2">Click on the Mp3 download button</li>
+            <li className="p-0 pb-2">Wait for a few while, then MP3 music will begin downloading automatically.</li>
+          </ol>
+          <h2 className="mt-5 pb-2" title="Mp3Paw Features">FAQ - mp3 paw</h2>
+          <h3>Is there possible to use <a className="contents text-[#551A8B]" href="https://mp3paw.mobi/en51/">mp3 paw</a> for free?</h3>
+          <p className="pt-0">Yes, mp3 paw is completely free of cost. you can download mp3 music and play music without registration and login.</p>
+          <h3>Is MP3 Paw Music Downloader working on all devices?</h3>
+          <p className="pt-0">Yes, Mp3 paw is working fine in mobile device, tablet and mac or window PC.</p>
+          <h3>Can I play to the music without downloading?</h3>
+          <p className="pt-0">Yes, you can paly to music without downloading using mp3 paw. </p>
+          <h3>Is it safe to use this downloader to download mp3 music?</h3>
+          <p className="pt-0">Yes, MP3 Paw is completely safe and secure.</p>
+          <h3>Is there any limitation to download mp3 music?</h3>
+          <p className="pt-0">No, there is no any limitations for download mp3 music. download music as much as you want.</p>
         </div>
       </section>
       <footer className="bg-primary h-[130px] border text-center border-[#5d2e0d] flex items-center">
@@ -218,15 +235,15 @@ const Index = () => {
               </li>
               <li className="inline-block mr-3">
                 <Link className="text-xs text-[#FFF]" to="/terms-of-service/"
-                      title="MP3 PAW - Download MP3 Music Free">TERMS</Link>
+                  title="MP3 PAW - Download MP3 Music Free">TERMS</Link>
               </li>
               <li className="inline-block mr-3">
                 <Link className="text-xs text-[#FFF]" to="/copyright/"
-                      title="MP3 PAW - Download MP3 Music Free">COPYRIGHT</Link>
+                  title="MP3 PAW - Download MP3 Music Free">COPYRIGHT</Link>
               </li>
               <li className="inline-block mr-3">
                 <Link className="text-xs text-[#FFF]" to="/contact/"
-                      title="MP3 PAW - Download MP3 Music Free">CONTACT</Link>
+                  title="MP3 PAW - Download MP3 Music Free">CONTACT</Link>
               </li>
             </ul>
             <div className="text-xs text-[#FFF] font-regular">© 2023 MP3 PAW. All Rights Reserved</div>
@@ -246,16 +263,16 @@ export const Head = () => (
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index,follow" />
     <meta name="description"
-          content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
+      content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
     <meta name="keywords"
-          content="MP3 PAW, download mp3, download music, 320kbps mp3, mp3 music, free mp3, free music" />
+      content="MP3 PAW, download mp3, download music, 320kbps mp3, mp3 music, free mp3, free music" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="MP3 PAW - Free MP3 Downloads" />
     <meta property="og:url" content="https://mp3paw.mobi/en51/" />
     <meta property="og:title" content="MP3 PAW - Download MP3 Music Free in High Quality" />
     <meta property="og:image" content="https://mp3paw.mobi/icons/icon-72x72.png" />
     <meta property="og:description"
-          content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
+      content="MP3 Paw is Free MP3 Music Download in 320kbps High Quality. it's Popular and Essy to use MP3 Download." />
     <link rel="canonical" href="https://mp3paw.mobi/en51/" />
     <meta name="google-site-verification" content="n9tcBQAttrl7f1rSG7BsTADmvk8IWaOaGe5eJjTlA9M" />
     <meta name="monetag" content="13bde2e4000dff0f27101ca40bffc618" />

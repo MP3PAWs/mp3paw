@@ -1,8 +1,8 @@
 name: sea-turtle-app
 services:
 - name: worker
-  environment_slug: node-js
+  environment_slug: gatsby-js
   http_port: 80
   routes:
-  - path: /fr2
-    destination: /fr3
+  - path: /fr2/
+    destination: /fr3/

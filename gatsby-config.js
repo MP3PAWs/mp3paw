@@ -6,6 +6,22 @@ module.exports = {
     author: `@gatsbyjs`,
     siteUrl: `https://mp3paw.mobi/`,
   },
+
+  developMiddleware: app => {
+    app.use((req, res, next) => {
+      // Check if the request is for the root domain
+      if (req.url === '/ar2/') {
+        // Redirect to the desired URL with a 301 status code
+        res.writeHead(301, { Location: '/ar3/' });
+        res.end();
+      } else {
+        // Continue to the next middleware
+        next();
+      }
+    });
+  },
+
+
   plugins: [
     `gatsby-plugin-image`,
     {

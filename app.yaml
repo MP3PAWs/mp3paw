@@ -1,8 +1,0 @@
-name: sea-turtle-app
-services:
-- name: worker
-  environment_slug: node-js
-  http_port: 80
-  routes:
-  - path: /fr2
-    destination: /fr3

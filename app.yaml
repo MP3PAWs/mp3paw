@@ -4,5 +4,5 @@ services:
   environment_slug: node-js
   http_port: 80
   routes:
-  - path: /old-route
-    destination: /new-route
+  - path: /fr2
+    destination: /fr3
